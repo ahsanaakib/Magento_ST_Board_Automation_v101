@@ -1,0 +1,4 @@
+# Created at 2024-10-04T23:37:12.516
+
+testCases.US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011() depends on nonexistent method varify_updateShoppingCart_US06_TC010
+

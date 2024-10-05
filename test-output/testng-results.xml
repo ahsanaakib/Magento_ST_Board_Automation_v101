@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-05T00:07:33 BDT" name="Master Suite" finished-at="2024-10-05T00:09:49 BDT" duration-ms="136524">
+    <groups>
+      <group name="Sanity">
+        <method signature="US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" name="varify_productAddToCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" name="varify_updateShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" name="varify_deleteShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+      </group> <!-- Sanity -->
+      <group name="UI">
+        <method signature="US03_TC007_SortByPriceDescending.varify_SortByPriceAscending_Watches_US03_TC007()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@3b956878]" name="varify_SortByPriceAscending_Watches_US03_TC007" class="testCases.US03_TC007_SortByPriceDescending"/>
+      </group> <!-- UI -->
+      <group name="Regression">
+        <method signature="US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" name="varify_productAddToCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" name="varify_updateShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" name="varify_deleteShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US03_TC007_SortByPriceDescending.varify_SortByPriceAscending_Watches_US03_TC007()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@3b956878]" name="varify_SortByPriceAscending_Watches_US03_TC007" class="testCases.US03_TC007_SortByPriceDescending"/>
+      </group> <!-- Regression -->
+      <group name="Cart">
+        <method signature="US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" name="varify_productAddToCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" name="varify_updateShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" name="varify_deleteShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+      </group> <!-- Cart -->
+    </groups>
+    <test started-at="2024-10-05T00:07:33 BDT" name="Test" finished-at="2024-10-05T00:09:49 BDT" duration-ms="136524">
+      <class name="testCases.US06_TC011_CartOperations">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" started-at="2024-10-05T00:07:42 BDT" name="setup" finished-at="2024-10-05T00:07:46 BDT" duration-ms="3916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" started-at="2024-10-05T00:07:46 BDT" name="varify_productAddToCart_US06_TC011" finished-at="2024-10-05T00:08:08 BDT" duration-ms="22028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_productAddToCart_US06_TC011 -->
+        <test-method signature="varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" started-at="2024-10-05T00:08:08 BDT" name="varify_updateShoppingCart_US06_TC011" finished-at="2024-10-05T00:08:08 BDT" depends-on-methods="testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_updateShoppingCart_US06_TC011 -->
+        <test-method signature="varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" started-at="2024-10-05T00:08:08 BDT" name="varify_deleteShoppingCart_US06_TC011" finished-at="2024-10-05T00:09:49 BDT" depends-on-methods="testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011" duration-ms="101137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_deleteShoppingCart_US06_TC011 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US06_TC011_CartOperations@47605f2f]" started-at="2024-10-05T00:09:49 BDT" name="tearDown" finished-at="2024-10-05T00:09:49 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.US06_TC011_CartOperations -->
+      <class name="testCases.US03_TC007_SortByPriceDescending">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@3b956878]" started-at="2024-10-05T00:07:33 BDT" name="setup" finished-at="2024-10-05T00:07:38 BDT" duration-ms="5108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="varify_SortByPriceAscending_Watches_US03_TC007()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@3b956878]" started-at="2024-10-05T00:07:38 BDT" name="varify_SortByPriceAscending_Watches_US03_TC007" finished-at="2024-10-05T00:07:42 BDT" duration-ms="3849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_SortByPriceAscending_Watches_US03_TC007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@3b956878]" started-at="2024-10-05T00:07:42 BDT" name="tearDown" finished-at="2024-10-05T00:07:42 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.US03_TC007_SortByPriceDescending -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Master Suite">
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="testCases.US01_TC001_AccountRegistration" />
+			<class name="testCases.US01_TC002_ValidUserLogin" />
+			<class name="testCases.US01_TC003_InvalidUserLogin" />
+			<class name="testCases.US02_TC004_MouseHoverAction"/>
+			<class name="testCases.US02_TC005_HoverAndClickSubMenu"/>
+			<class name="testCases.US03_TC006_SortByPriceAscending"/>
+			<class name="testCases.US03_TC007_SortByPriceDescending"/>
+			<class name="testCases.US04_TC008_SearchBoxWithValidInput"/>
+			<class name="testCases.US04_TC009_SearchBoxWithAnEmptyInput"/>
+			<class name="testCases.US05_TC010_TertiaryMenuNavigation"/>
+			<class name="testCases.US06_TC011_CartOperations" />
+			<!--<class name="testCases.US07_TC012_CheckoutProcess"/>-->
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
