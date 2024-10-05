@@ -82,7 +82,7 @@ public class US06_TC011_CartOperations extends BaseClass {
 	
 		try {
 			ShoppingCartPage scp = new ShoppingCartPage(driver);
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 			scp.clickRemoveItem(); // Remove the item from the cart
 
 			String cartEmptyMessage = scp.getCartEmptyMessage();

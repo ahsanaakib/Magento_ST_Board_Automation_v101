@@ -1,31 +1,31 @@
-07:17:55.629 [main] INFO  testCases.US01_TC001_AccountRegistration - Validating Registration Successful Message.
-07:17:56.273 [main] INFO  testCases.US01_TC001_AccountRegistration - ***** Ending varify_accountRegistration_US01_TC001 *****
-07:18:00.060 [main] INFO  testCases.US01_TC002_ValidUserLogin - **** Starting varify_validUserLogin_US01_TC002 ****
-07:18:03.504 [main] INFO  testCases.US01_TC002_ValidUserLogin - Validating User Welcome Message
-07:18:05.025 [main] INFO  testCases.US01_TC002_ValidUserLogin - **** Ending varify_validUserLogin_US01_TC002 ****
-07:18:08.160 [main] INFO  testCases.US01_TC003_InvalidUserLogin - **** Starting varify_invalidUserLogin_US01_TC003 ****
-07:18:11.853 [main] INFO  testCases.US01_TC003_InvalidUserLogin - Validating Loging Error Message
-07:18:11.853 [main] INFO  testCases.US01_TC003_InvalidUserLogin - **** Ending varify_invalidUserLogin_US01_TC003 ****
-07:18:15.609 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Starting varify_mouseHoverAction_US02_TC004 *****
-07:18:16.115 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color before hover: rgba(87, 87, 87, 1)
-07:18:16.115 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color after hover: rgba(51, 51, 51, 1)
-07:18:16.116 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Ending varify_mouseHoverAction_US02_TC004 *****
-07:18:19.094 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Starting varify_HoverAndClickSubMenu_US02_TC005 ****
-07:18:20.500 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - Actual URL of watches page: https://magento.softwaretestingboard.com/gear/watches.html
-07:18:20.500 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Ending varify_HoverAndClickSubMenu_US02_TC005 ****
-07:18:24.405 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC006 *****
-07:18:27.169 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Ending varify_SortByPriceAscending_Watches_US03_TC006 *****
-07:18:30.274 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC007 *****
-07:18:34.009 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Finished varify_SortByPriceAscending_Watches_US03_TC007 *****
-07:18:37.467 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Starting varify_searchBoxWithValidInput_US04_TC008 ******
-07:18:39.306 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Ending varify_searchBoxWithValidInput_US04_TC008 ******
-07:18:42.970 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Starting varify_searchBoxWithEmptyInput_US04_TC009 *****
-07:18:43.300 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Ending varify_searchBoxWithEmptyInput_US04_TC009 *****
-07:18:46.177 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Starting varify_tertiaryMenuNavigation_US05_TC010 *****
-07:18:48.131 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Ending varify_tertiaryMenuNavigation_US05_TC010 *****
-07:18:51.394 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****
-07:19:10.840 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_productAddToCart_US06_TC011 ****
-07:19:10.845 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_updateShoppingCart_US06_TC011 ****
-07:19:11.088 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_updateShoppingCart_US06_TC011 ****
-07:19:11.091 [main] INFO  testCases.US06_TC011_CartOperations - ***** Starting varify_deleteShoppingCart_US06_TC011 *****
-07:19:24.759 [main] INFO  testCases.US06_TC011_CartOperations - ***** Ending varify_deleteShoppingCart_US06_TC011 *****
+16:54:55.564 [main] INFO  testCases.US01_TC001_AccountRegistration - Validating Registration Successful Message.
+16:54:56.205 [main] INFO  testCases.US01_TC001_AccountRegistration - ***** Ending varify_accountRegistration_US01_TC001 *****
+16:55:01.728 [main] INFO  testCases.US01_TC002_ValidUserLogin - **** Starting varify_validUserLogin_US01_TC002 ****
+16:55:05.183 [main] INFO  testCases.US01_TC002_ValidUserLogin - Validating User Welcome Message
+16:55:06.841 [main] INFO  testCases.US01_TC002_ValidUserLogin - **** Ending varify_validUserLogin_US01_TC002 ****
+16:55:10.866 [main] INFO  testCases.US01_TC003_InvalidUserLogin - **** Starting varify_invalidUserLogin_US01_TC003 ****
+16:55:14.219 [main] INFO  testCases.US01_TC003_InvalidUserLogin - Validating Loging Error Message
+16:55:14.219 [main] INFO  testCases.US01_TC003_InvalidUserLogin - **** Ending varify_invalidUserLogin_US01_TC003 ****
+16:55:17.377 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Starting varify_mouseHoverAction_US02_TC004 *****
+16:55:17.805 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color before hover: rgba(87, 87, 87, 1)
+16:55:17.805 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color after hover: rgba(51, 51, 51, 1)
+16:55:17.805 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Ending varify_mouseHoverAction_US02_TC004 *****
+16:55:21.858 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Starting varify_HoverAndClickSubMenu_US02_TC005 ****
+16:55:23.235 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - Actual URL of watches page: https://magento.softwaretestingboard.com/gear/watches.html
+16:55:23.235 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Ending varify_HoverAndClickSubMenu_US02_TC005 ****
+16:55:26.684 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC006 *****
+16:55:30.119 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Ending varify_SortByPriceAscending_Watches_US03_TC006 *****
+16:55:34.106 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC007 *****
+16:55:37.825 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Finished varify_SortByPriceAscending_Watches_US03_TC007 *****
+16:55:41.050 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Starting varify_searchBoxWithValidInput_US04_TC008 ******
+16:55:42.846 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Ending varify_searchBoxWithValidInput_US04_TC008 ******
+16:55:46.848 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Starting varify_searchBoxWithEmptyInput_US04_TC009 *****
+16:55:47.154 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Ending varify_searchBoxWithEmptyInput_US04_TC009 *****
+16:55:51.010 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Starting varify_tertiaryMenuNavigation_US05_TC010 *****
+16:55:53.002 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Ending varify_tertiaryMenuNavigation_US05_TC010 *****
+16:55:58.467 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****
+16:56:18.314 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_productAddToCart_US06_TC011 ****
+16:56:18.319 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_updateShoppingCart_US06_TC011 ****
+16:56:18.494 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_updateShoppingCart_US06_TC011 ****
+16:56:18.496 [main] INFO  testCases.US06_TC011_CartOperations - ***** Starting varify_deleteShoppingCart_US06_TC011 *****
+16:56:26.612 [main] INFO  testCases.US06_TC011_CartOperations - ***** Ending varify_deleteShoppingCart_US06_TC011 *****

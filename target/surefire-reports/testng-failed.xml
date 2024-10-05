@@ -8,13 +8,6 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.US04_TC008_SearchBoxWithValidInput">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="varify_searchBoxWithValidInput_US04_TC008"/>
-        </methods>
-      </class> <!-- testCases.US04_TC008_SearchBoxWithValidInput -->
       <class name="testCases.US04_TC009_SearchBoxWithAnEmptyInput">
         <methods>
           <include name="tearDown"/>
