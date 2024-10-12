@@ -1,6 +1,6 @@
 ## Magento_ST_Board_Automation_v101
 ## Project Overview:
-This project is aimed at automating the test cases for the Magento eCommerce platform at https://magento.softwaretestingboard.com/. The automation suite covers key functionalities like user registration, login, product search, cart operations, and more. The framework is designed using Selenium WebDriver (Java) and leverages TestNG for test case organization and execution.
+This project is aimed at automating the test cases for the Magento eCommerce platform at https://magento.softwaretestingboard.com/. The automation suite covers key functionalities like user registration, login, product search, cart operations, checkout process and more. The framework is designed using Selenium WebDriver (Java) and leverages TestNG for test case organization and execution.
 
 ## Test Cases Included
 The current test suite automates the following key scenarios:
