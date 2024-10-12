@@ -11,9 +11,9 @@ The current test suite automates the following key scenarios:
 * **Product Sorting by Price**
 * **Product Search** (Valid and Empty Inputs)
 * **Cart Operations** (Add, Update, Remove)
+* **Checkout Process**
 
 ## Planned Features
-* **Checkout Process** (To be implemented): US07_TC012_CheckoutProcess
 * **Account Management Tests:** Automate scenarios like updating profile information, changing passwords, and viewing order history.
 * **Cross-browser Compatibility Tests:** Ensure functionality works across multiple browsers, including Chrome, Firefox, and Safari.
 
