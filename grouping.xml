@@ -12,6 +12,8 @@
 			<include name="UI" />
 			<include name="Search" />
 			<include name="Cart" />
+			<include name="Checkout" />
+			
 			<!-- <include name=""/>-->
 			<!-- <exclude name=""/>-->
 		</run>
@@ -38,7 +40,7 @@
 			<class name="testCases.US04_TC009_SearchBoxWithAnEmptyInput"/>
 			<class name="testCases.US05_TC010_TertiaryMenuNavigation"/>
 			<class name="testCases.US06_TC011_CartOperations" />
-			<!--<class name="testCases.US07_TC012_CheckoutProcess"/>-->
+			<class name="testCases.US07_TC012_CheckoutProcess"/>
 		</classes>
 	</test> <!--
 	Test -->

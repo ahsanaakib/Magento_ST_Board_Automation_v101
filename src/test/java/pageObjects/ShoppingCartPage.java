@@ -25,6 +25,9 @@ public class ShoppingCartPage extends BasePage{
 	@FindBy(xpath = "//div[@class='cart-empty']/p[1]")
 	WebElement txtCartEmptyMessage;
 	
+	@FindBy(xpath = "//button[@data-role='proceed-to-checkout']")
+	WebElement btnProceedToCheckout;
+	
 	public String getCartItemName()
 	{
 		return cartItemNameElement.getText();
@@ -56,6 +59,10 @@ public class ShoppingCartPage extends BasePage{
 		}catch (Exception e) {
 			return "Cart empty message not found";
 		}
+	}
+	public void clickProceedToCheckout()
+	{
+		btnProceedToCheckout.click();
 	}
 	
 }

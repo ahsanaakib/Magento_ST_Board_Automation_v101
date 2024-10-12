@@ -1,0 +1,40 @@
+17:05:37.667 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Starting varify_searchBoxWithEmptyInput_US04_TC009 *****
+17:05:38.078 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Ending varify_searchBoxWithEmptyInput_US04_TC009 *****
+17:05:41.121 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Starting varify_tertiaryMenuNavigation_US05_TC010 *****
+17:05:43.437 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Ending varify_tertiaryMenuNavigation_US05_TC010 *****
+17:05:47.687 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****
+17:06:07.946 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_productAddToCart_US06_TC011 ****
+17:06:07.951 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_updateShoppingCart_US06_TC011 ****
+17:06:08.151 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_updateShoppingCart_US06_TC011 ****
+17:06:08.153 [main] INFO  testCases.US06_TC011_CartOperations - ***** Starting varify_deleteShoppingCart_US06_TC011 *****
+17:11:23.604 [main] INFO  testCases.US07_TC012_CheckoutProcess - **** Starting varify_checkoutProcess_US07_TC012 ****
+17:12:24.154 [main] INFO  testCases.US07_TC012_CheckoutProcess - **** Ending varify_checkoutProcess_US07_TC012 ****
+17:12:57.377 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\Magento_ST_Board_Automation_v101\master.xml"
+17:13:03.367 [main] INFO  testCases.US01_TC001_AccountRegistration - ***** Starting varify_accountRegistration_US01_TC001 *****
+17:13:04.971 [main] INFO  testCases.US01_TC001_AccountRegistration - Providing Customer details...
+17:13:08.273 [main] INFO  testCases.US01_TC001_AccountRegistration - Validating Registration Successful Message.
+17:13:08.955 [main] INFO  testCases.US01_TC001_AccountRegistration - ***** Ending varify_accountRegistration_US01_TC001 *****
+17:13:14.921 [main] INFO  testCases.US01_TC002_ValidUserLogin - **** Starting varify_validUserLogin_US01_TC002 ****
+17:13:18.368 [main] INFO  testCases.US01_TC002_ValidUserLogin - Validating User Welcome Message
+17:13:19.847 [main] INFO  testCases.US01_TC002_ValidUserLogin - **** Ending varify_validUserLogin_US01_TC002 ****
+17:13:23.441 [main] INFO  testCases.US01_TC003_InvalidUserLogin - **** Starting varify_invalidUserLogin_US01_TC003 ****
+17:13:27.354 [main] INFO  testCases.US01_TC003_InvalidUserLogin - Validating Loging Error Message
+17:13:27.354 [main] INFO  testCases.US01_TC003_InvalidUserLogin - **** Ending varify_invalidUserLogin_US01_TC003 ****
+17:13:30.383 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Starting varify_mouseHoverAction_US02_TC004 *****
+17:13:30.871 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color before hover: rgba(87, 87, 87, 1)
+17:13:30.871 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color after hover: rgba(51, 51, 51, 1)
+17:13:30.871 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Ending varify_mouseHoverAction_US02_TC004 *****
+17:13:35.347 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Starting varify_HoverAndClickSubMenu_US02_TC005 ****
+17:13:37.043 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - Actual URL of watches page: https://magento.softwaretestingboard.com/gear/watches.html
+17:13:37.043 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Ending varify_HoverAndClickSubMenu_US02_TC005 ****
+17:13:40.748 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC006 *****
+17:13:43.754 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Ending varify_SortByPriceAscending_Watches_US03_TC006 *****
+17:13:46.801 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC007 *****
+17:13:51.147 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Finished varify_SortByPriceAscending_Watches_US03_TC007 *****
+17:13:57.187 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Starting varify_searchBoxWithValidInput_US04_TC008 ******
+17:13:59.362 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Ending varify_searchBoxWithValidInput_US04_TC008 ******
+17:14:02.421 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Starting varify_searchBoxWithEmptyInput_US04_TC009 *****
+17:14:02.800 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Ending varify_searchBoxWithEmptyInput_US04_TC009 *****
+17:14:06.218 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Starting varify_tertiaryMenuNavigation_US05_TC010 *****
+17:14:08.255 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Ending varify_tertiaryMenuNavigation_US05_TC010 *****
+17:14:12.232 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****

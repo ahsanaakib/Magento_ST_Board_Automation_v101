@@ -35,6 +35,13 @@ public class SearchResultsPage extends BasePage{
 	@FindBy(xpath = "//button[@class='update-cart-item']")
 	WebElement btnUpdateQtyItemElement;
 	
+	@FindBy(xpath = "//a[@class='product-item-link'][normalize-space()='Hero Hoodie']")
+	WebElement lnkHeroHoodie;	//not necessary
+	
+	public void clickHeroHoodie()
+	{
+		lnkHeroHoodie.click();
+	}
 	public String getNameOFFirstProduct()
 	{
 		try
@@ -50,6 +57,7 @@ public class SearchResultsPage extends BasePage{
 		try
 		{
 		WebElement productElement= driver.findElement(By.xpath("//img[@alt='" + productName + "']"));
+		
 		productElement.click();
 		}catch (NoSuchElementException e) {
 	        Assert.fail("Unable to find product.");

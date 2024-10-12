@@ -46,6 +46,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//button[@class='action search']")
 	WebElement searchIcon; // search icon in search bar
 
+	
 	public void clickCreateAnAcc() {
 		lnkCreateAnAcc.click(); // click create an account link
 	}

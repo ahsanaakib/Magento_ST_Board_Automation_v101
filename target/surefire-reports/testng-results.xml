@@ -1,60 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-05T16:54:45 BDT" name="Master Suite" finished-at="2024-10-05T16:56:26 BDT" duration-ms="101373">
+  <suite started-at="2024-10-12T17:12:57 BDT" name="Master Suite" finished-at="2024-10-12T17:15:46 BDT" duration-ms="168771">
     <groups>
       <group name="Sanity">
-        <method signature="US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" name="varify_productAddToCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
-        <method signature="US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" name="varify_updateShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
-        <method signature="US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" name="varify_deleteShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
-        <method signature="US01_TC001_AccountRegistration.varify_accountRegistration_US01_TC001()[pri:0, instance:testCases.US01_TC001_AccountRegistration@6ce86ce1]" name="varify_accountRegistration_US01_TC001" class="testCases.US01_TC001_AccountRegistration"/>
-        <method signature="US01_TC002_ValidUserLogin.varify_validUserLogin_US01_TC002()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@64bce832]" name="varify_validUserLogin_US01_TC002" class="testCases.US01_TC002_ValidUserLogin"/>
-        <method signature="US02_TC005_HoverAndClickSubMenu.varify_HoverAndClickSubMenu_US02_TC005()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@598bd2ba]" name="varify_HoverAndClickSubMenu_US02_TC005" class="testCases.US02_TC005_HoverAndClickSubMenu"/>
-        <method signature="US03_TC006_SortByPriceAscending.varify_SortByPriceAscending_Watches_US03_TC006()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@5a755cc1]" name="varify_SortByPriceAscending_Watches_US03_TC006" class="testCases.US03_TC006_SortByPriceAscending"/>
-        <method signature="US04_TC008_SearchBoxWithValidInput.varify_searchBoxWithValidInput_US04_TC008()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@4f5991f6]" name="varify_searchBoxWithValidInput_US04_TC008" class="testCases.US04_TC008_SearchBoxWithValidInput"/>
-        <method signature="US05_TC010_TertiaryMenuNavigation.varify_tertiaryMenuNavigation_US05_TC010()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@38234a38]" name="varify_tertiaryMenuNavigation_US05_TC010" class="testCases.US05_TC010_TertiaryMenuNavigation"/>
+        <method signature="US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" name="varify_productAddToCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" name="varify_updateShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" name="varify_deleteShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US07_TC012_CheckoutProcess.varify_checkoutProcess_US07_TC012()[pri:0, instance:testCases.US07_TC012_CheckoutProcess@22f31dec]" name="varify_checkoutProcess_US07_TC012" class="testCases.US07_TC012_CheckoutProcess"/>
+        <method signature="US01_TC001_AccountRegistration.varify_accountRegistration_US01_TC001()[pri:0, instance:testCases.US01_TC001_AccountRegistration@3fed2870]" name="varify_accountRegistration_US01_TC001" class="testCases.US01_TC001_AccountRegistration"/>
+        <method signature="US01_TC002_ValidUserLogin.varify_validUserLogin_US01_TC002()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@4c1f22f3]" name="varify_validUserLogin_US01_TC002" class="testCases.US01_TC002_ValidUserLogin"/>
+        <method signature="US02_TC005_HoverAndClickSubMenu.varify_HoverAndClickSubMenu_US02_TC005()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@7ae42ce3]" name="varify_HoverAndClickSubMenu_US02_TC005" class="testCases.US02_TC005_HoverAndClickSubMenu"/>
+        <method signature="US03_TC006_SortByPriceAscending.varify_SortByPriceAscending_Watches_US03_TC006()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@4f5991f6]" name="varify_SortByPriceAscending_Watches_US03_TC006" class="testCases.US03_TC006_SortByPriceAscending"/>
+        <method signature="US04_TC008_SearchBoxWithValidInput.varify_searchBoxWithValidInput_US04_TC008()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@38234a38]" name="varify_searchBoxWithValidInput_US04_TC008" class="testCases.US04_TC008_SearchBoxWithValidInput"/>
+        <method signature="US05_TC010_TertiaryMenuNavigation.varify_tertiaryMenuNavigation_US05_TC010()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@602e0143]" name="varify_tertiaryMenuNavigation_US05_TC010" class="testCases.US05_TC010_TertiaryMenuNavigation"/>
       </group> <!-- Sanity -->
+      <group name="Checkout">
+        <method signature="US07_TC012_CheckoutProcess.varify_checkoutProcess_US07_TC012()[pri:0, instance:testCases.US07_TC012_CheckoutProcess@22f31dec]" name="varify_checkoutProcess_US07_TC012" class="testCases.US07_TC012_CheckoutProcess"/>
+      </group> <!-- Checkout -->
       <group name="UI">
-        <method signature="US02_TC004_MouseHoverAction.varify_mouseHoverAction_US02_TC004()[pri:0, instance:testCases.US02_TC004_MouseHoverAction@4c1f22f3]" name="varify_mouseHoverAction_US02_TC004" class="testCases.US02_TC004_MouseHoverAction"/>
-        <method signature="US02_TC005_HoverAndClickSubMenu.varify_HoverAndClickSubMenu_US02_TC005()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@598bd2ba]" name="varify_HoverAndClickSubMenu_US02_TC005" class="testCases.US02_TC005_HoverAndClickSubMenu"/>
-        <method signature="US03_TC006_SortByPriceAscending.varify_SortByPriceAscending_Watches_US03_TC006()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@5a755cc1]" name="varify_SortByPriceAscending_Watches_US03_TC006" class="testCases.US03_TC006_SortByPriceAscending"/>
-        <method signature="US03_TC007_SortByPriceDescending.varify_SortByPriceAscending_Watches_US03_TC007()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@7ae42ce3]" name="varify_SortByPriceAscending_Watches_US03_TC007" class="testCases.US03_TC007_SortByPriceDescending"/>
-        <method signature="US05_TC010_TertiaryMenuNavigation.varify_tertiaryMenuNavigation_US05_TC010()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@38234a38]" name="varify_tertiaryMenuNavigation_US05_TC010" class="testCases.US05_TC010_TertiaryMenuNavigation"/>
+        <method signature="US02_TC004_MouseHoverAction.varify_mouseHoverAction_US02_TC004()[pri:0, instance:testCases.US02_TC004_MouseHoverAction@5a755cc1]" name="varify_mouseHoverAction_US02_TC004" class="testCases.US02_TC004_MouseHoverAction"/>
+        <method signature="US02_TC005_HoverAndClickSubMenu.varify_HoverAndClickSubMenu_US02_TC005()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@7ae42ce3]" name="varify_HoverAndClickSubMenu_US02_TC005" class="testCases.US02_TC005_HoverAndClickSubMenu"/>
+        <method signature="US03_TC006_SortByPriceAscending.varify_SortByPriceAscending_Watches_US03_TC006()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@4f5991f6]" name="varify_SortByPriceAscending_Watches_US03_TC006" class="testCases.US03_TC006_SortByPriceAscending"/>
+        <method signature="US03_TC007_SortByPriceDescending.varify_SortByPriceAscending_Watches_US03_TC007()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@484094a5]" name="varify_SortByPriceAscending_Watches_US03_TC007" class="testCases.US03_TC007_SortByPriceDescending"/>
+        <method signature="US05_TC010_TertiaryMenuNavigation.varify_tertiaryMenuNavigation_US05_TC010()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@602e0143]" name="varify_tertiaryMenuNavigation_US05_TC010" class="testCases.US05_TC010_TertiaryMenuNavigation"/>
       </group> <!-- UI -->
       <group name="Search">
-        <method signature="US04_TC008_SearchBoxWithValidInput.varify_searchBoxWithValidInput_US04_TC008()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@4f5991f6]" name="varify_searchBoxWithValidInput_US04_TC008" class="testCases.US04_TC008_SearchBoxWithValidInput"/>
-        <method signature="US04_TC009_SearchBoxWithAnEmptyInput.varify_searchBoxWithEmptyInput_US04_TC009()[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@484094a5]" name="varify_searchBoxWithEmptyInput_US04_TC009" class="testCases.US04_TC009_SearchBoxWithAnEmptyInput"/>
+        <method signature="US04_TC008_SearchBoxWithValidInput.varify_searchBoxWithValidInput_US04_TC008()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@38234a38]" name="varify_searchBoxWithValidInput_US04_TC008" class="testCases.US04_TC008_SearchBoxWithValidInput"/>
+        <method signature="US04_TC009_SearchBoxWithAnEmptyInput.varify_searchBoxWithEmptyInput_US04_TC009()[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@63fbfaeb]" name="varify_searchBoxWithEmptyInput_US04_TC009" class="testCases.US04_TC009_SearchBoxWithAnEmptyInput"/>
       </group> <!-- Search -->
       <group name="UserManagement">
-        <method signature="US01_TC001_AccountRegistration.varify_accountRegistration_US01_TC001()[pri:0, instance:testCases.US01_TC001_AccountRegistration@6ce86ce1]" name="varify_accountRegistration_US01_TC001" class="testCases.US01_TC001_AccountRegistration"/>
-        <method signature="US01_TC002_ValidUserLogin.varify_validUserLogin_US01_TC002()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@64bce832]" name="varify_validUserLogin_US01_TC002" class="testCases.US01_TC002_ValidUserLogin"/>
-        <method signature="US01_TC003_InvalidUserLogin.varify_invalidUserLogin_US01_TC003()[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@764faa6]" name="varify_invalidUserLogin_US01_TC003" class="testCases.US01_TC003_InvalidUserLogin"/>
+        <method signature="US01_TC001_AccountRegistration.varify_accountRegistration_US01_TC001()[pri:0, instance:testCases.US01_TC001_AccountRegistration@3fed2870]" name="varify_accountRegistration_US01_TC001" class="testCases.US01_TC001_AccountRegistration"/>
+        <method signature="US01_TC002_ValidUserLogin.varify_validUserLogin_US01_TC002()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@4c1f22f3]" name="varify_validUserLogin_US01_TC002" class="testCases.US01_TC002_ValidUserLogin"/>
+        <method signature="US01_TC003_InvalidUserLogin.varify_invalidUserLogin_US01_TC003()[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@598bd2ba]" name="varify_invalidUserLogin_US01_TC003" class="testCases.US01_TC003_InvalidUserLogin"/>
       </group> <!-- UserManagement -->
       <group name="Regression">
-        <method signature="US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" name="varify_productAddToCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
-        <method signature="US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" name="varify_updateShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
-        <method signature="US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" name="varify_deleteShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
-        <method signature="US01_TC001_AccountRegistration.varify_accountRegistration_US01_TC001()[pri:0, instance:testCases.US01_TC001_AccountRegistration@6ce86ce1]" name="varify_accountRegistration_US01_TC001" class="testCases.US01_TC001_AccountRegistration"/>
-        <method signature="US01_TC002_ValidUserLogin.varify_validUserLogin_US01_TC002()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@64bce832]" name="varify_validUserLogin_US01_TC002" class="testCases.US01_TC002_ValidUserLogin"/>
-        <method signature="US01_TC003_InvalidUserLogin.varify_invalidUserLogin_US01_TC003()[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@764faa6]" name="varify_invalidUserLogin_US01_TC003" class="testCases.US01_TC003_InvalidUserLogin"/>
-        <method signature="US02_TC004_MouseHoverAction.varify_mouseHoverAction_US02_TC004()[pri:0, instance:testCases.US02_TC004_MouseHoverAction@4c1f22f3]" name="varify_mouseHoverAction_US02_TC004" class="testCases.US02_TC004_MouseHoverAction"/>
-        <method signature="US02_TC005_HoverAndClickSubMenu.varify_HoverAndClickSubMenu_US02_TC005()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@598bd2ba]" name="varify_HoverAndClickSubMenu_US02_TC005" class="testCases.US02_TC005_HoverAndClickSubMenu"/>
-        <method signature="US03_TC006_SortByPriceAscending.varify_SortByPriceAscending_Watches_US03_TC006()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@5a755cc1]" name="varify_SortByPriceAscending_Watches_US03_TC006" class="testCases.US03_TC006_SortByPriceAscending"/>
-        <method signature="US03_TC007_SortByPriceDescending.varify_SortByPriceAscending_Watches_US03_TC007()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@7ae42ce3]" name="varify_SortByPriceAscending_Watches_US03_TC007" class="testCases.US03_TC007_SortByPriceDescending"/>
-        <method signature="US04_TC008_SearchBoxWithValidInput.varify_searchBoxWithValidInput_US04_TC008()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@4f5991f6]" name="varify_searchBoxWithValidInput_US04_TC008" class="testCases.US04_TC008_SearchBoxWithValidInput"/>
-        <method signature="US04_TC009_SearchBoxWithAnEmptyInput.varify_searchBoxWithEmptyInput_US04_TC009()[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@484094a5]" name="varify_searchBoxWithEmptyInput_US04_TC009" class="testCases.US04_TC009_SearchBoxWithAnEmptyInput"/>
-        <method signature="US05_TC010_TertiaryMenuNavigation.varify_tertiaryMenuNavigation_US05_TC010()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@38234a38]" name="varify_tertiaryMenuNavigation_US05_TC010" class="testCases.US05_TC010_TertiaryMenuNavigation"/>
+        <method signature="US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" name="varify_productAddToCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" name="varify_updateShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" name="varify_deleteShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US07_TC012_CheckoutProcess.varify_checkoutProcess_US07_TC012()[pri:0, instance:testCases.US07_TC012_CheckoutProcess@22f31dec]" name="varify_checkoutProcess_US07_TC012" class="testCases.US07_TC012_CheckoutProcess"/>
+        <method signature="US01_TC001_AccountRegistration.varify_accountRegistration_US01_TC001()[pri:0, instance:testCases.US01_TC001_AccountRegistration@3fed2870]" name="varify_accountRegistration_US01_TC001" class="testCases.US01_TC001_AccountRegistration"/>
+        <method signature="US01_TC002_ValidUserLogin.varify_validUserLogin_US01_TC002()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@4c1f22f3]" name="varify_validUserLogin_US01_TC002" class="testCases.US01_TC002_ValidUserLogin"/>
+        <method signature="US01_TC003_InvalidUserLogin.varify_invalidUserLogin_US01_TC003()[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@598bd2ba]" name="varify_invalidUserLogin_US01_TC003" class="testCases.US01_TC003_InvalidUserLogin"/>
+        <method signature="US02_TC004_MouseHoverAction.varify_mouseHoverAction_US02_TC004()[pri:0, instance:testCases.US02_TC004_MouseHoverAction@5a755cc1]" name="varify_mouseHoverAction_US02_TC004" class="testCases.US02_TC004_MouseHoverAction"/>
+        <method signature="US02_TC005_HoverAndClickSubMenu.varify_HoverAndClickSubMenu_US02_TC005()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@7ae42ce3]" name="varify_HoverAndClickSubMenu_US02_TC005" class="testCases.US02_TC005_HoverAndClickSubMenu"/>
+        <method signature="US03_TC006_SortByPriceAscending.varify_SortByPriceAscending_Watches_US03_TC006()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@4f5991f6]" name="varify_SortByPriceAscending_Watches_US03_TC006" class="testCases.US03_TC006_SortByPriceAscending"/>
+        <method signature="US03_TC007_SortByPriceDescending.varify_SortByPriceAscending_Watches_US03_TC007()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@484094a5]" name="varify_SortByPriceAscending_Watches_US03_TC007" class="testCases.US03_TC007_SortByPriceDescending"/>
+        <method signature="US04_TC008_SearchBoxWithValidInput.varify_searchBoxWithValidInput_US04_TC008()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@38234a38]" name="varify_searchBoxWithValidInput_US04_TC008" class="testCases.US04_TC008_SearchBoxWithValidInput"/>
+        <method signature="US04_TC009_SearchBoxWithAnEmptyInput.varify_searchBoxWithEmptyInput_US04_TC009()[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@63fbfaeb]" name="varify_searchBoxWithEmptyInput_US04_TC009" class="testCases.US04_TC009_SearchBoxWithAnEmptyInput"/>
+        <method signature="US05_TC010_TertiaryMenuNavigation.varify_tertiaryMenuNavigation_US05_TC010()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@602e0143]" name="varify_tertiaryMenuNavigation_US05_TC010" class="testCases.US05_TC010_TertiaryMenuNavigation"/>
       </group> <!-- Regression -->
       <group name="Cart">
-        <method signature="US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" name="varify_productAddToCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
-        <method signature="US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" name="varify_updateShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
-        <method signature="US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" name="varify_deleteShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" name="varify_productAddToCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" name="varify_updateShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" name="varify_deleteShoppingCart_US06_TC011" class="testCases.US06_TC011_CartOperations"/>
+        <method signature="US07_TC012_CheckoutProcess.varify_checkoutProcess_US07_TC012()[pri:0, instance:testCases.US07_TC012_CheckoutProcess@22f31dec]" name="varify_checkoutProcess_US07_TC012" class="testCases.US07_TC012_CheckoutProcess"/>
       </group> <!-- Cart -->
     </groups>
-    <test started-at="2024-10-05T16:54:45 BDT" name="Test" finished-at="2024-10-05T16:56:26 BDT" duration-ms="101373">
+    <test started-at="2024-10-12T17:12:57 BDT" name="Test" finished-at="2024-10-12T17:15:46 BDT" duration-ms="168771">
       <class name="testCases.US06_TC011_CartOperations">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" started-at="2024-10-05T16:55:53 BDT" name="setup" finished-at="2024-10-05T16:55:58 BDT" duration-ms="5275" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" started-at="2024-10-12T17:14:08 BDT" name="setup" finished-at="2024-10-12T17:14:12 BDT" duration-ms="3739" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,25 +76,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" started-at="2024-10-05T16:55:58 BDT" name="varify_productAddToCart_US06_TC011" finished-at="2024-10-05T16:56:18 BDT" duration-ms="19849" status="PASS">
+        <test-method signature="varify_productAddToCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" started-at="2024-10-12T17:14:12 BDT" name="varify_productAddToCart_US06_TC011" finished-at="2024-10-12T17:14:31 BDT" duration-ms="19358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_productAddToCart_US06_TC011 -->
-        <test-method signature="varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" started-at="2024-10-05T16:56:18 BDT" name="varify_updateShoppingCart_US06_TC011" finished-at="2024-10-05T16:56:18 BDT" depends-on-methods="testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011" duration-ms="176" status="PASS">
+        <test-method signature="varify_updateShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" started-at="2024-10-12T17:14:31 BDT" name="varify_updateShoppingCart_US06_TC011" finished-at="2024-10-12T17:14:31 BDT" depends-on-methods="testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_updateShoppingCart_US06_TC011 -->
-        <test-method signature="varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" started-at="2024-10-05T16:56:18 BDT" name="varify_deleteShoppingCart_US06_TC011" finished-at="2024-10-05T16:56:26 BDT" depends-on-methods="testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011" duration-ms="8117" status="PASS">
+        <test-method signature="varify_deleteShoppingCart_US06_TC011()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" started-at="2024-10-12T17:14:31 BDT" name="varify_deleteShoppingCart_US06_TC011" finished-at="2024-10-12T17:14:37 BDT" depends-on-methods="testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011" duration-ms="5970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_deleteShoppingCart_US06_TC011 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US06_TC011_CartOperations@2c07545f]" started-at="2024-10-05T16:56:26 BDT" name="tearDown" finished-at="2024-10-05T16:56:26 BDT" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US06_TC011_CartOperations@32c726ee]" started-at="2024-10-12T17:14:37 BDT" name="tearDown" finished-at="2024-10-12T17:14:38 BDT" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US06_TC011_CartOperations -->
       <class name="testCases.US01_TC003_InvalidUserLogin">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@764faa6]" started-at="2024-10-05T16:55:07 BDT" name="setup" finished-at="2024-10-05T16:55:10 BDT" duration-ms="3586" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@598bd2ba]" started-at="2024-10-12T17:13:20 BDT" name="setup" finished-at="2024-10-12T17:13:23 BDT" duration-ms="3371" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,17 +110,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_invalidUserLogin_US01_TC003()[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@764faa6]" started-at="2024-10-05T16:55:10 BDT" name="varify_invalidUserLogin_US01_TC003" finished-at="2024-10-05T16:55:14 BDT" duration-ms="3354" status="PASS">
+        <test-method signature="varify_invalidUserLogin_US01_TC003()[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@598bd2ba]" started-at="2024-10-12T17:13:23 BDT" name="varify_invalidUserLogin_US01_TC003" finished-at="2024-10-12T17:13:27 BDT" duration-ms="3917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_invalidUserLogin_US01_TC003 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@764faa6]" started-at="2024-10-05T16:55:14 BDT" name="tearDown" finished-at="2024-10-05T16:55:14 BDT" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US01_TC003_InvalidUserLogin@598bd2ba]" started-at="2024-10-12T17:13:27 BDT" name="tearDown" finished-at="2024-10-12T17:13:27 BDT" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US01_TC003_InvalidUserLogin -->
-      <class name="testCases.US05_TC010_TertiaryMenuNavigation">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@38234a38]" started-at="2024-10-05T16:55:47 BDT" name="setup" finished-at="2024-10-05T16:55:51 BDT" duration-ms="3617" status="PASS">
+      <class name="testCases.US07_TC012_CheckoutProcess">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US07_TC012_CheckoutProcess@22f31dec]" started-at="2024-10-12T17:14:38 BDT" name="setup" finished-at="2024-10-12T17:14:42 BDT" duration-ms="4062" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,17 +136,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_tertiaryMenuNavigation_US05_TC010()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@38234a38]" started-at="2024-10-05T16:55:51 BDT" name="varify_tertiaryMenuNavigation_US05_TC010" finished-at="2024-10-05T16:55:53 BDT" duration-ms="1994" status="PASS">
+        <test-method signature="varify_checkoutProcess_US07_TC012()[pri:0, instance:testCases.US07_TC012_CheckoutProcess@22f31dec]" started-at="2024-10-12T17:14:42 BDT" name="varify_checkoutProcess_US07_TC012" finished-at="2024-10-12T17:15:46 BDT" duration-ms="64141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_checkoutProcess_US07_TC012 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US07_TC012_CheckoutProcess@22f31dec]" started-at="2024-10-12T17:15:46 BDT" name="tearDown" finished-at="2024-10-12T17:15:46 BDT" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.US07_TC012_CheckoutProcess -->
+      <class name="testCases.US05_TC010_TertiaryMenuNavigation">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@602e0143]" started-at="2024-10-12T17:14:03 BDT" name="setup" finished-at="2024-10-12T17:14:06 BDT" duration-ms="3168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="varify_tertiaryMenuNavigation_US05_TC010()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@602e0143]" started-at="2024-10-12T17:14:06 BDT" name="varify_tertiaryMenuNavigation_US05_TC010" finished-at="2024-10-12T17:14:08 BDT" duration-ms="2041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_tertiaryMenuNavigation_US05_TC010 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@38234a38]" started-at="2024-10-05T16:55:53 BDT" name="tearDown" finished-at="2024-10-05T16:55:53 BDT" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US05_TC010_TertiaryMenuNavigation@602e0143]" started-at="2024-10-12T17:14:08 BDT" name="tearDown" finished-at="2024-10-12T17:14:08 BDT" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US05_TC010_TertiaryMenuNavigation -->
       <class name="testCases.US03_TC007_SortByPriceDescending">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@7ae42ce3]" started-at="2024-10-05T16:55:30 BDT" name="setup" finished-at="2024-10-05T16:55:34 BDT" duration-ms="3709" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@484094a5]" started-at="2024-10-12T17:13:43 BDT" name="setup" finished-at="2024-10-12T17:13:46 BDT" duration-ms="2831" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,17 +188,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_SortByPriceAscending_Watches_US03_TC007()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@7ae42ce3]" started-at="2024-10-05T16:55:34 BDT" name="varify_SortByPriceAscending_Watches_US03_TC007" finished-at="2024-10-05T16:55:37 BDT" duration-ms="3720" status="PASS">
+        <test-method signature="varify_SortByPriceAscending_Watches_US03_TC007()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@484094a5]" started-at="2024-10-12T17:13:46 BDT" name="varify_SortByPriceAscending_Watches_US03_TC007" finished-at="2024-10-12T17:13:51 BDT" duration-ms="4350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_SortByPriceAscending_Watches_US03_TC007 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@7ae42ce3]" started-at="2024-10-05T16:55:37 BDT" name="tearDown" finished-at="2024-10-05T16:55:38 BDT" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US03_TC007_SortByPriceDescending@484094a5]" started-at="2024-10-12T17:13:51 BDT" name="tearDown" finished-at="2024-10-12T17:13:51 BDT" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US03_TC007_SortByPriceDescending -->
       <class name="testCases.US04_TC008_SearchBoxWithValidInput">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@4f5991f6]" started-at="2024-10-05T16:55:38 BDT" name="setup" finished-at="2024-10-05T16:55:41 BDT" duration-ms="2981" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@38234a38]" started-at="2024-10-12T17:13:51 BDT" name="setup" finished-at="2024-10-12T17:13:57 BDT" duration-ms="5819" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,17 +214,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_searchBoxWithValidInput_US04_TC008()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@4f5991f6]" started-at="2024-10-05T16:55:41 BDT" name="varify_searchBoxWithValidInput_US04_TC008" finished-at="2024-10-05T16:55:42 BDT" duration-ms="1805" status="PASS">
+        <test-method signature="varify_searchBoxWithValidInput_US04_TC008()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@38234a38]" started-at="2024-10-12T17:13:57 BDT" name="varify_searchBoxWithValidInput_US04_TC008" finished-at="2024-10-12T17:13:59 BDT" duration-ms="2176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_searchBoxWithValidInput_US04_TC008 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@4f5991f6]" started-at="2024-10-05T16:55:42 BDT" name="tearDown" finished-at="2024-10-05T16:55:43 BDT" duration-ms="523" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US04_TC008_SearchBoxWithValidInput@38234a38]" started-at="2024-10-12T17:13:59 BDT" name="tearDown" finished-at="2024-10-12T17:13:59 BDT" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US04_TC008_SearchBoxWithValidInput -->
       <class name="testCases.US03_TC006_SortByPriceAscending">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@5a755cc1]" started-at="2024-10-05T16:55:23 BDT" name="setup" finished-at="2024-10-05T16:55:26 BDT" duration-ms="3166" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@4f5991f6]" started-at="2024-10-12T17:13:37 BDT" name="setup" finished-at="2024-10-12T17:13:40 BDT" duration-ms="3483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,17 +240,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_SortByPriceAscending_Watches_US03_TC006()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@5a755cc1]" started-at="2024-10-05T16:55:26 BDT" name="varify_SortByPriceAscending_Watches_US03_TC006" finished-at="2024-10-05T16:55:30 BDT" duration-ms="3441" status="PASS">
+        <test-method signature="varify_SortByPriceAscending_Watches_US03_TC006()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@4f5991f6]" started-at="2024-10-12T17:13:40 BDT" name="varify_SortByPriceAscending_Watches_US03_TC006" finished-at="2024-10-12T17:13:43 BDT" duration-ms="3008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_SortByPriceAscending_Watches_US03_TC006 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@5a755cc1]" started-at="2024-10-05T16:55:30 BDT" name="tearDown" finished-at="2024-10-05T16:55:30 BDT" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US03_TC006_SortByPriceAscending@4f5991f6]" started-at="2024-10-12T17:13:43 BDT" name="tearDown" finished-at="2024-10-12T17:13:43 BDT" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US03_TC006_SortByPriceAscending -->
       <class name="testCases.US02_TC004_MouseHoverAction">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US02_TC004_MouseHoverAction@4c1f22f3]" started-at="2024-10-05T16:55:14 BDT" name="setup" finished-at="2024-10-05T16:55:17 BDT" duration-ms="2938" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US02_TC004_MouseHoverAction@5a755cc1]" started-at="2024-10-12T17:13:27 BDT" name="setup" finished-at="2024-10-12T17:13:30 BDT" duration-ms="2816" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -234,17 +266,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_mouseHoverAction_US02_TC004()[pri:0, instance:testCases.US02_TC004_MouseHoverAction@4c1f22f3]" started-at="2024-10-05T16:55:17 BDT" name="varify_mouseHoverAction_US02_TC004" finished-at="2024-10-05T16:55:17 BDT" duration-ms="434" status="PASS">
+        <test-method signature="varify_mouseHoverAction_US02_TC004()[pri:0, instance:testCases.US02_TC004_MouseHoverAction@5a755cc1]" started-at="2024-10-12T17:13:30 BDT" name="varify_mouseHoverAction_US02_TC004" finished-at="2024-10-12T17:13:30 BDT" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_mouseHoverAction_US02_TC004 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US02_TC004_MouseHoverAction@4c1f22f3]" started-at="2024-10-05T16:55:17 BDT" name="tearDown" finished-at="2024-10-05T16:55:18 BDT" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US02_TC004_MouseHoverAction@5a755cc1]" started-at="2024-10-12T17:13:30 BDT" name="tearDown" finished-at="2024-10-12T17:13:31 BDT" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US02_TC004_MouseHoverAction -->
       <class name="testCases.US02_TC005_HoverAndClickSubMenu">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@598bd2ba]" started-at="2024-10-05T16:55:18 BDT" name="setup" finished-at="2024-10-05T16:55:21 BDT" duration-ms="3182" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@7ae42ce3]" started-at="2024-10-12T17:13:31 BDT" name="setup" finished-at="2024-10-12T17:13:35 BDT" duration-ms="4278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -260,17 +292,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_HoverAndClickSubMenu_US02_TC005()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@598bd2ba]" started-at="2024-10-05T16:55:21 BDT" name="varify_HoverAndClickSubMenu_US02_TC005" finished-at="2024-10-05T16:55:23 BDT" duration-ms="1377" status="PASS">
+        <test-method signature="varify_HoverAndClickSubMenu_US02_TC005()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@7ae42ce3]" started-at="2024-10-12T17:13:35 BDT" name="varify_HoverAndClickSubMenu_US02_TC005" finished-at="2024-10-12T17:13:37 BDT" duration-ms="1697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_HoverAndClickSubMenu_US02_TC005 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@598bd2ba]" started-at="2024-10-05T16:55:23 BDT" name="tearDown" finished-at="2024-10-05T16:55:23 BDT" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US02_TC005_HoverAndClickSubMenu@7ae42ce3]" started-at="2024-10-12T17:13:37 BDT" name="tearDown" finished-at="2024-10-12T17:13:37 BDT" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US02_TC005_HoverAndClickSubMenu -->
       <class name="testCases.US04_TC009_SearchBoxWithAnEmptyInput">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@484094a5]" started-at="2024-10-05T16:55:43 BDT" name="setup" finished-at="2024-10-05T16:55:46 BDT" duration-ms="3475" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@63fbfaeb]" started-at="2024-10-12T17:13:59 BDT" name="setup" finished-at="2024-10-12T17:14:02 BDT" duration-ms="2841" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,17 +318,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_searchBoxWithEmptyInput_US04_TC009()[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@484094a5]" started-at="2024-10-05T16:55:46 BDT" name="varify_searchBoxWithEmptyInput_US04_TC009" finished-at="2024-10-05T16:55:47 BDT" duration-ms="308" status="PASS">
+        <test-method signature="varify_searchBoxWithEmptyInput_US04_TC009()[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@63fbfaeb]" started-at="2024-10-12T17:14:02 BDT" name="varify_searchBoxWithEmptyInput_US04_TC009" finished-at="2024-10-12T17:14:02 BDT" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_searchBoxWithEmptyInput_US04_TC009 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@484094a5]" started-at="2024-10-05T16:55:47 BDT" name="tearDown" finished-at="2024-10-05T16:55:47 BDT" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US04_TC009_SearchBoxWithAnEmptyInput@63fbfaeb]" started-at="2024-10-12T17:14:02 BDT" name="tearDown" finished-at="2024-10-12T17:14:03 BDT" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US04_TC009_SearchBoxWithAnEmptyInput -->
       <class name="testCases.US01_TC002_ValidUserLogin">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US01_TC002_ValidUserLogin@64bce832]" started-at="2024-10-05T16:54:56 BDT" name="setup" finished-at="2024-10-05T16:55:01 BDT" duration-ms="5255" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US01_TC002_ValidUserLogin@4c1f22f3]" started-at="2024-10-12T17:13:09 BDT" name="setup" finished-at="2024-10-12T17:13:14 BDT" duration-ms="5734" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -312,17 +344,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_validUserLogin_US01_TC002()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@64bce832]" started-at="2024-10-05T16:55:01 BDT" name="varify_validUserLogin_US01_TC002" finished-at="2024-10-05T16:55:06 BDT" duration-ms="5114" status="PASS">
+        <test-method signature="varify_validUserLogin_US01_TC002()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@4c1f22f3]" started-at="2024-10-12T17:13:14 BDT" name="varify_validUserLogin_US01_TC002" finished-at="2024-10-12T17:13:19 BDT" duration-ms="4928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_validUserLogin_US01_TC002 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@64bce832]" started-at="2024-10-05T16:55:06 BDT" name="tearDown" finished-at="2024-10-05T16:55:07 BDT" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US01_TC002_ValidUserLogin@4c1f22f3]" started-at="2024-10-12T17:13:19 BDT" name="tearDown" finished-at="2024-10-12T17:13:20 BDT" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.US01_TC002_ValidUserLogin -->
       <class name="testCases.US01_TC001_AccountRegistration">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US01_TC001_AccountRegistration@6ce86ce1]" started-at="2024-10-05T16:54:45 BDT" name="setup" finished-at="2024-10-05T16:54:49 BDT" duration-ms="4288" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.US01_TC001_AccountRegistration@3fed2870]" started-at="2024-10-12T17:12:57 BDT" name="setup" finished-at="2024-10-12T17:13:03 BDT" duration-ms="5372" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -338,11 +370,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="varify_accountRegistration_US01_TC001()[pri:0, instance:testCases.US01_TC001_AccountRegistration@6ce86ce1]" started-at="2024-10-05T16:54:50 BDT" name="varify_accountRegistration_US01_TC001" finished-at="2024-10-05T16:54:56 BDT" duration-ms="6172" status="PASS">
+        <test-method signature="varify_accountRegistration_US01_TC001()[pri:0, instance:testCases.US01_TC001_AccountRegistration@3fed2870]" started-at="2024-10-12T17:13:03 BDT" name="varify_accountRegistration_US01_TC001" finished-at="2024-10-12T17:13:08 BDT" duration-ms="5599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_accountRegistration_US01_TC001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US01_TC001_AccountRegistration@6ce86ce1]" started-at="2024-10-05T16:54:56 BDT" name="tearDown" finished-at="2024-10-05T16:54:56 BDT" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.US01_TC001_AccountRegistration@3fed2870]" started-at="2024-10-12T17:13:08 BDT" name="tearDown" finished-at="2024-10-12T17:13:09 BDT" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

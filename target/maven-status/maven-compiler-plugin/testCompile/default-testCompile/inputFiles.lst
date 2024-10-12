@@ -1,12 +1,15 @@
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\BasePage.java
+C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\CheckoutPage.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\CustomerAccountPage.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\HomePage.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\HoodieAndSweatshirtsPage.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\LoginPage.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\MyAccountPage.java
+C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\ProductDetailsPageHeroHoodie.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\ProductListingPage.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\SearchResultsPage.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\ShoppingCartPage.java
+C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\SuccessPage.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\pageObjects\WatchesPage.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\testBase\BaseClass.java
 C:\eclipse-workspace\Magento_ST_Board_Automation_v101\src\test\java\testCases\US01_TC001_AccountRegistration.java
