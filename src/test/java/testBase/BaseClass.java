@@ -132,7 +132,7 @@ public Properties p;
 	}
 	
 	public String randomAlphanumericString() {
-	    int length = 10;  // Adjust the length as needed
+	    int length = 12;  // Adjust the length as needed
 	    String alphanumeric = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 	    Random random = new Random();
 	    StringBuilder sb = new StringBuilder(length);

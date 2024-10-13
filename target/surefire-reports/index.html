@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Master_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Master Suite</span>
+              <span class="suite-name border-failed">Master Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods, 3 failed,  2 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods failed suite-Master_Suite"> (hide)</a> <!-- hide-methods failed suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods failed suite-Master_Suite"> (show)</a> <!-- show-methods failed suite-Master_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Master_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US07_TC012_CheckoutProcess" class="method navigator-link" hash-for-method="varify_checkoutProcess_US07_TC012">varify_checkoutProcess_US07_TC012</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US06_TC011_CartOperations" class="method navigator-link" hash-for-method="varify_productAddToCart_US06_TC011">varify_productAddToCart_US06_TC011</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US04_TC009_SearchBoxWithAnEmptyInput" class="method navigator-link" hash-for-method="varify_searchBoxWithEmptyInput_US04_TC009">varify_searchBoxWithEmptyInput_US04_TC009</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Master_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods skipped suite-Master_Suite"> (hide)</a> <!-- hide-methods skipped suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods skipped suite-Master_Suite"> (show)</a> <!-- show-methods skipped suite-Master_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Master_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US06_TC011_CartOperations" class="method navigator-link" hash-for-method="varify_deleteShoppingCart_US06_TC011">varify_deleteShoppingCart_US06_TC011</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US06_TC011_CartOperations" class="method navigator-link" hash-for-method="varify_updateShoppingCart_US06_TC011">varify_updateShoppingCart_US06_TC011</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Master_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -123,16 +166,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US07_TC012_CheckoutProcess" class="method navigator-link" hash-for-method="varify_checkoutProcess_US07_TC012">varify_checkoutProcess_US07_TC012</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US06_TC011_CartOperations" class="method navigator-link" hash-for-method="varify_deleteShoppingCart_US06_TC011">varify_deleteShoppingCart_US06_TC011</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Master_Suite" title="testCases.US01_TC003_InvalidUserLogin" class="method navigator-link" hash-for-method="varify_invalidUserLogin_US01_TC003">varify_invalidUserLogin_US01_TC003</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -143,27 +176,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US06_TC011_CartOperations" class="method navigator-link" hash-for-method="varify_productAddToCart_US06_TC011">varify_productAddToCart_US06_TC011</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US04_TC009_SearchBoxWithAnEmptyInput" class="method navigator-link" hash-for-method="varify_searchBoxWithEmptyInput_US04_TC009">varify_searchBoxWithEmptyInput_US04_TC009</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Master_Suite" title="testCases.US04_TC008_SearchBoxWithValidInput" class="method navigator-link" hash-for-method="varify_searchBoxWithValidInput_US04_TC008">varify_searchBoxWithValidInput_US04_TC008</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Master_Suite" title="testCases.US05_TC010_TertiaryMenuNavigation" class="method navigator-link" hash-for-method="varify_tertiaryMenuNavigation_US05_TC010">varify_tertiaryMenuNavigation_US05_TC010</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.US06_TC011_CartOperations" class="method navigator-link" hash-for-method="varify_updateShoppingCart_US06_TC011">varify_updateShoppingCart_US06_TC011</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -183,6 +201,114 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Master_Suite" class="panel Master_Suite">
+          <div class="suite-Master_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.US06_TC011_CartOperations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="varify_productAddToCart_US06_TC011">
+                  </a> <!-- varify_productAddToCart_US06_TC011 -->
+                  <span class="method-name">varify_productAddToCart_US06_TC011</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to an exception: element not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [499e41d49ec024f1a63e24dafad9d151, clickElement {id=f.BA2663E0EC2C03FDFC82C366E2378E33.d.B3FFC12D41F3514A0A8DE75B5DC578A8.e.180}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14009/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (499e41d49ec024f1a63e24dafad9d151)] -&gt; xpath: //a[@class=&apos;action viewcart&apos;]/span]
+Session ID: 499e41d49ec024f1a63e24dafad9d151
+	at testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011(US06_TC011_CartOperations.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.US04_TC009_SearchBoxWithAnEmptyInput</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="varify_searchBoxWithEmptyInput_US04_TC009">
+                  </a> <!-- varify_searchBoxWithEmptyInput_US04_TC009 -->
+                  <span class="method-name">varify_searchBoxWithEmptyInput_US04_TC009</span>
+                  <div class="stack-trace">java.lang.AssertionError: Search icon should be disabled for empty input. expected [true] but found [false]
+	at testCases.US04_TC009_SearchBoxWithAnEmptyInput.varify_searchBoxWithEmptyInput_US04_TC009(US04_TC009_SearchBoxWithAnEmptyInput.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.US07_TC012_CheckoutProcess</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="varify_checkoutProcess_US07_TC012">
+                  </a> <!-- varify_checkoutProcess_US07_TC012 -->
+                  <span class="method-name">varify_checkoutProcess_US07_TC012</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to an Exceptionelement not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baad2586e8851082fa62f3b06625bd0a, clickElement {id=f.9E001DBFFFD3C720A99E13815A48EB72.d.76288FAE9591A8B961B83667E2BFFD84.e.338}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14028/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (baad2586e8851082fa62f3b06625bd0a)] -&gt; xpath: //a[@class=&apos;action viewcart&apos;]/span]
+Session ID: baad2586e8851082fa62f3b06625bd0a
+	at testCases.US07_TC012_CheckoutProcess.varify_checkoutProcess_US07_TC012(US07_TC012_CheckoutProcess.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.US06_TC011_CartOperations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="varify_deleteShoppingCart_US06_TC011">
+                  </a> <!-- varify_deleteShoppingCart_US06_TC011 -->
+                  <span class="method-name">varify_deleteShoppingCart_US06_TC011</span>
+                  <div class="stack-trace">java.lang.Throwable: Method testCases.US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee depends on not successfully finished methods 
+[testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="varify_updateShoppingCart_US06_TC011">
+                  </a> <!-- varify_updateShoppingCart_US06_TC011 -->
+                  <span class="method-name">varify_updateShoppingCart_US06_TC011</span>
+                  <div class="stack-trace">java.lang.Throwable: Method testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee depends on not successfully finished methods 
+[testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-skipped -->
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -216,35 +342,6 @@
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.US06_TC011_CartOperations</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="varify_deleteShoppingCart_US06_TC011">
-                  </a> <!-- varify_deleteShoppingCart_US06_TC011 -->
-                  <span class="method-name">varify_deleteShoppingCart_US06_TC011</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="varify_productAddToCart_US06_TC011">
-                  </a> <!-- varify_productAddToCart_US06_TC011 -->
-                  <span class="method-name">varify_productAddToCart_US06_TC011</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="varify_updateShoppingCart_US06_TC011">
-                  </a> <!-- varify_updateShoppingCart_US06_TC011 -->
-                  <span class="method-name">varify_updateShoppingCart_US06_TC011</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_Suite-class-passed -->
-          <div class="suite-Master_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testCases.US02_TC004_MouseHoverAction</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -253,21 +350,6 @@
                   <a name="varify_mouseHoverAction_US02_TC004">
                   </a> <!-- varify_mouseHoverAction_US02_TC004 -->
                   <span class="method-name">varify_mouseHoverAction_US02_TC004</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_Suite-class-passed -->
-          <div class="suite-Master_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.US01_TC001_AccountRegistration</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="varify_accountRegistration_US01_TC001">
-                  </a> <!-- varify_accountRegistration_US01_TC001 -->
-                  <span class="method-name">varify_accountRegistration_US01_TC001</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -290,14 +372,14 @@
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.US04_TC008_SearchBoxWithValidInput</span>
+              <span class="class-name">testCases.US01_TC001_AccountRegistration</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="varify_searchBoxWithValidInput_US04_TC008">
-                  </a> <!-- varify_searchBoxWithValidInput_US04_TC008 -->
-                  <span class="method-name">varify_searchBoxWithValidInput_US04_TC008</span>
+                  <a name="varify_accountRegistration_US01_TC001">
+                  </a> <!-- varify_accountRegistration_US01_TC001 -->
+                  <span class="method-name">varify_accountRegistration_US01_TC001</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -320,14 +402,14 @@
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.US04_TC009_SearchBoxWithAnEmptyInput</span>
+              <span class="class-name">testCases.US04_TC008_SearchBoxWithValidInput</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="varify_searchBoxWithEmptyInput_US04_TC009">
-                  </a> <!-- varify_searchBoxWithEmptyInput_US04_TC009 -->
-                  <span class="method-name">varify_searchBoxWithEmptyInput_US04_TC009</span>
+                  <a name="varify_searchBoxWithValidInput_US04_TC008">
+                  </a> <!-- varify_searchBoxWithValidInput_US04_TC008 -->
+                  <span class="method-name">varify_searchBoxWithValidInput_US04_TC008</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -343,21 +425,6 @@
                   <a name="varify_HoverAndClickSubMenu_US02_TC005">
                   </a> <!-- varify_HoverAndClickSubMenu_US02_TC005 -->
                   <span class="method-name">varify_HoverAndClickSubMenu_US02_TC005</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_Suite-class-passed -->
-          <div class="suite-Master_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.US07_TC012_CheckoutProcess</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="varify_checkoutProcess_US07_TC012">
-                  </a> <!-- varify_checkoutProcess_US07_TC012 -->
-                  <span class="method-name">varify_checkoutProcess_US07_TC012</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -633,64 +700,64 @@ data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'varify_checkoutProcess_US07_TC012')
 data.setCell(0, 2, 'testCases.US07_TC012_CheckoutProcess')
-data.setCell(0, 3, 64141);
+data.setCell(0, 3, 69124);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'varify_productAddToCart_US06_TC011')
 data.setCell(1, 2, 'testCases.US06_TC011_CartOperations')
-data.setCell(1, 3, 19358);
+data.setCell(1, 3, 42378);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'varify_deleteShoppingCart_US06_TC011')
-data.setCell(2, 2, 'testCases.US06_TC011_CartOperations')
-data.setCell(2, 3, 5970);
+data.setCell(2, 1, 'varify_SortByPriceAscending_Watches_US03_TC007')
+data.setCell(2, 2, 'testCases.US03_TC007_SortByPriceDescending')
+data.setCell(2, 3, 15619);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'varify_accountRegistration_US01_TC001')
-data.setCell(3, 2, 'testCases.US01_TC001_AccountRegistration')
-data.setCell(3, 3, 5599);
+data.setCell(3, 1, 'varify_validUserLogin_US01_TC002')
+data.setCell(3, 2, 'testCases.US01_TC002_ValidUserLogin')
+data.setCell(3, 3, 12321);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'varify_validUserLogin_US01_TC002')
-data.setCell(4, 2, 'testCases.US01_TC002_ValidUserLogin')
-data.setCell(4, 3, 4928);
+data.setCell(4, 1, 'varify_accountRegistration_US01_TC001')
+data.setCell(4, 2, 'testCases.US01_TC001_AccountRegistration')
+data.setCell(4, 3, 6974);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'varify_SortByPriceAscending_Watches_US03_TC007')
-data.setCell(5, 2, 'testCases.US03_TC007_SortByPriceDescending')
-data.setCell(5, 3, 4350);
+data.setCell(5, 1, 'varify_invalidUserLogin_US01_TC003')
+data.setCell(5, 2, 'testCases.US01_TC003_InvalidUserLogin')
+data.setCell(5, 3, 6396);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'varify_invalidUserLogin_US01_TC003')
-data.setCell(6, 2, 'testCases.US01_TC003_InvalidUserLogin')
-data.setCell(6, 3, 3917);
+data.setCell(6, 1, 'varify_tertiaryMenuNavigation_US05_TC010')
+data.setCell(6, 2, 'testCases.US05_TC010_TertiaryMenuNavigation')
+data.setCell(6, 3, 5996);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'varify_SortByPriceAscending_Watches_US03_TC006')
 data.setCell(7, 2, 'testCases.US03_TC006_SortByPriceAscending')
-data.setCell(7, 3, 3008);
+data.setCell(7, 3, 5365);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'varify_searchBoxWithValidInput_US04_TC008')
-data.setCell(8, 2, 'testCases.US04_TC008_SearchBoxWithValidInput')
-data.setCell(8, 3, 2176);
+data.setCell(8, 1, 'varify_searchBoxWithEmptyInput_US04_TC009')
+data.setCell(8, 2, 'testCases.US04_TC009_SearchBoxWithAnEmptyInput')
+data.setCell(8, 3, 5237);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'varify_tertiaryMenuNavigation_US05_TC010')
-data.setCell(9, 2, 'testCases.US05_TC010_TertiaryMenuNavigation')
-data.setCell(9, 3, 2041);
+data.setCell(9, 1, 'varify_searchBoxWithValidInput_US04_TC008')
+data.setCell(9, 2, 'testCases.US04_TC008_SearchBoxWithValidInput')
+data.setCell(9, 3, 4957);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'varify_HoverAndClickSubMenu_US02_TC005')
 data.setCell(10, 2, 'testCases.US02_TC005_HoverAndClickSubMenu')
-data.setCell(10, 3, 1697);
+data.setCell(10, 3, 1855);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'varify_mouseHoverAction_US02_TC004')
 data.setCell(11, 2, 'testCases.US02_TC004_MouseHoverAction')
-data.setCell(11, 3, 489);
+data.setCell(11, 3, 756);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'varify_searchBoxWithEmptyInput_US04_TC009')
-data.setCell(12, 2, 'testCases.US04_TC009_SearchBoxWithAnEmptyInput')
-data.setCell(12, 3, 380);
+data.setCell(12, 1, 'varify_deleteShoppingCart_US06_TC011')
+data.setCell(12, 2, 'testCases.US06_TC011_CartOperations')
+data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'varify_updateShoppingCart_US06_TC011')
 data.setCell(13, 2, 'testCases.US06_TC011_CartOperations')
-data.setCell(13, 3, 203);
+data.setCell(13, 3, 0);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Master_Suite">
               </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
@@ -723,184 +790,182 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">varify_accountRegistration_US01_TC001</span>
-                <span class="method-start">5393 ms</span>
+                <span class="method-start">9509 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11006 ms</span>
+                <span class="method-start">16499 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US01_TC002_ValidUserLogin</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">11217 ms</span>
+                <span class="method-start">16893 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">varify_validUserLogin_US01_TC002</span>
-                <span class="method-start">16955 ms</span>
+                <span class="method-start">22340 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21884 ms</span>
+                <span class="method-start">34661 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US01_TC003_InvalidUserLogin</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">22101 ms</span>
+                <span class="method-start">34889 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">varify_invalidUserLogin_US01_TC003</span>
-                <span class="method-start">25473 ms</span>
+                <span class="method-start">38804 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29391 ms</span>
+                <span class="method-start">45200 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US02_TC004_MouseHoverAction</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">29601 ms</span>
+                <span class="method-start">45750 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">varify_mouseHoverAction_US02_TC004</span>
-                <span class="method-start">32418 ms</span>
+                <span class="method-start">52735 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32908 ms</span>
+                <span class="method-start">53492 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US02_TC005_HoverAndClickSubMenu</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">33103 ms</span>
+                <span class="method-start">53722 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">varify_HoverAndClickSubMenu_US02_TC005</span>
-                <span class="method-start">37382 ms</span>
+                <span class="method-start">58706 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39084 ms</span>
+                <span class="method-start">60563 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US03_TC006_SortByPriceAscending</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">39300 ms</span>
+                <span class="method-start">60791 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">varify_SortByPriceAscending_Watches_US03_TC006</span>
-                <span class="method-start">42783 ms</span>
+                <span class="method-start">66574 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">45791 ms</span>
+                <span class="method-start">71939 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US03_TC007_SortByPriceDescending</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">46001 ms</span>
+                <span class="method-start">72175 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">varify_SortByPriceAscending_Watches_US03_TC007</span>
-                <span class="method-start">48833 ms</span>
+                <span class="method-start">80142 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53184 ms</span>
+                <span class="method-start">95761 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US04_TC008_SearchBoxWithValidInput</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">53404 ms</span>
+                <span class="method-start">96026 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">varify_searchBoxWithValidInput_US04_TC008</span>
-                <span class="method-start">59223 ms</span>
+                <span class="method-start">100543 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">61400 ms</span>
+                <span class="method-start">105501 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US04_TC009_SearchBoxWithAnEmptyInput</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">61615 ms</span>
+                <span class="method-start">105768 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">varify_searchBoxWithEmptyInput_US04_TC009</span>
-                <span class="method-start">64456 ms</span>
+                <span class="method-start">109883 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">64837 ms</span>
+                <span class="method-start">115338 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US05_TC010_TertiaryMenuNavigation</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">65077 ms</span>
+                <span class="method-start">115566 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">varify_tertiaryMenuNavigation_US05_TC010</span>
-                <span class="method-start">68250 ms</span>
+                <span class="method-start">119747 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">70292 ms</span>
+                <span class="method-start">125744 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US06_TC011_CartOperations</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">70523 ms</span>
+                <span class="method-start">125941 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">varify_productAddToCart_US06_TC011</span>
-                <span class="method-start">74264 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">varify_updateShoppingCart_US06_TC011</span>
-                <span class="method-start">93622 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">varify_deleteShoppingCart_US06_TC011</span>
-                <span class="method-start">93827 ms</span>
+                <span class="method-start">131225 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">99797 ms</span>
+                <span class="method-start">173701 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.US07_TC012_CheckoutProcess</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">100082 ms</span>
+                <span class="method-start">173967 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">varify_checkoutProcess_US07_TC012</span>
-                <span class="method-start">104145 ms</span>
+                <span class="method-start">179845 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">168286 ms</span>
+                <span class="method-start">249078 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

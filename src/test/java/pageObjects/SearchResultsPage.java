@@ -36,7 +36,7 @@ public class SearchResultsPage extends BasePage{
 	WebElement btnUpdateQtyItemElement;
 	
 	@FindBy(xpath = "//a[@class='product-item-link'][normalize-space()='Hero Hoodie']")
-	WebElement lnkHeroHoodie;	//not necessary
+	WebElement lnkHeroHoodie;
 	
 	public void clickHeroHoodie()
 	{
@@ -85,6 +85,7 @@ public class SearchResultsPage extends BasePage{
 	
 	public void clickViewAndEditCart()
 	{
+		waitForElementToBeClickable(viewAndEditCartElement, 10);
 		viewAndEditCartElement.click();
 	}
 }

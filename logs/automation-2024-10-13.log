@@ -1,0 +1,43 @@
+06:56:12.195 [main] INFO  testCases.US01_TC003_InvalidUserLogin - **** Ending varify_invalidUserLogin_US01_TC003 ****
+06:56:16.216 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Starting varify_mouseHoverAction_US02_TC004 *****
+06:56:16.774 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color before hover: rgba(87, 87, 87, 1)
+06:56:16.774 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color after hover: rgba(51, 51, 51, 1)
+06:56:16.774 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Ending varify_mouseHoverAction_US02_TC004 *****
+06:56:20.079 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Starting varify_HoverAndClickSubMenu_US02_TC005 ****
+06:56:21.632 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - Actual URL of watches page: https://magento.softwaretestingboard.com/gear/watches.html
+06:56:21.632 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Ending varify_HoverAndClickSubMenu_US02_TC005 ****
+06:56:25.558 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC006 *****
+06:56:31.321 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Ending varify_SortByPriceAscending_Watches_US03_TC006 *****
+06:56:35.943 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC007 *****
+06:56:49.307 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Finished varify_SortByPriceAscending_Watches_US03_TC007 *****
+06:56:53.295 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Starting varify_searchBoxWithValidInput_US04_TC008 ******
+06:56:58.103 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Ending varify_searchBoxWithValidInput_US04_TC008 ******
+06:57:02.635 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Starting varify_searchBoxWithEmptyInput_US04_TC009 *****
+06:57:07.792 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Ending varify_searchBoxWithEmptyInput_US04_TC009 *****
+06:57:11.439 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Starting varify_tertiaryMenuNavigation_US05_TC010 *****
+06:57:13.268 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Ending varify_tertiaryMenuNavigation_US05_TC010 *****
+06:57:17.109 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****
+06:57:22.565 [main] INFO  testCases.US07_TC012_CheckoutProcess - **** Starting varify_checkoutProcess_US07_TC012 ****
+06:58:40.565 [main] INFO  testCases.US07_TC012_CheckoutProcess - **** Ending varify_checkoutProcess_US07_TC012 ****
+07:00:53.776 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\Magento_ST_Board_Automation_v101\master.xml"
+07:00:54.243 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\Magento_ST_Board_Automation_v101\master.xml
+
+07:00:58.447 [main] INFO  testCases.US01_TC001_AccountRegistration - ***** Starting varify_accountRegistration_US01_TC001 *****
+07:01:00.140 [main] INFO  testCases.US01_TC001_AccountRegistration - Providing Customer details...
+07:01:05.644 [main] INFO  testCases.US01_TC001_AccountRegistration - Validating Registration Successful Message.
+07:01:06.315 [main] INFO  testCases.US01_TC001_AccountRegistration - ***** Ending varify_accountRegistration_US01_TC001 *****
+07:01:10.211 [main] INFO  testCases.US01_TC002_ValidUserLogin - **** Starting varify_validUserLogin_US01_TC002 ****
+07:01:16.767 [main] INFO  testCases.US01_TC002_ValidUserLogin - Validating User Welcome Message
+07:01:16.793 [main] INFO  testCases.US01_TC002_ValidUserLogin - **** Ending varify_validUserLogin_US01_TC002 ****
+07:01:20.456 [main] INFO  testCases.US01_TC003_InvalidUserLogin - **** Starting varify_invalidUserLogin_US01_TC003 ****
+07:01:26.661 [main] INFO  testCases.US01_TC003_InvalidUserLogin - Validating Loging Error Message
+07:01:26.661 [main] INFO  testCases.US01_TC003_InvalidUserLogin - **** Ending varify_invalidUserLogin_US01_TC003 ****
+07:01:30.445 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Starting varify_mouseHoverAction_US02_TC004 *****
+07:01:30.969 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color before hover: rgba(87, 87, 87, 1)
+07:01:30.969 [main] INFO  testCases.US02_TC004_MouseHoverAction - Color after hover: rgba(51, 51, 51, 1)
+07:01:30.970 [main] INFO  testCases.US02_TC004_MouseHoverAction - ***** Ending varify_mouseHoverAction_US02_TC004 *****
+07:01:33.889 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Starting varify_HoverAndClickSubMenu_US02_TC005 ****
+07:01:35.709 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - Actual URL of watches page: https://magento.softwaretestingboard.com/gear/watches.html
+07:01:35.710 [main] INFO  testCases.US02_TC005_HoverAndClickSubMenu - **** Ending varify_HoverAndClickSubMenu_US02_TC005 ****
+07:01:40.464 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC006 *****

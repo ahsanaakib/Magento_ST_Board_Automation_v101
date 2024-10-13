@@ -31,7 +31,7 @@ public class US01_TC001_AccountRegistration extends BaseClass {
 
 			cap.setPassword(password);
 			cap.setConfirmPassword(password);
-
+			Thread.sleep(2000);
 			cap.clickBtnCreateAccount(); // click Create an Account button to submit form
 
 			logger.info("Validating Registration Successful Message.");

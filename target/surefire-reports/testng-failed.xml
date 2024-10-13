@@ -17,6 +17,20 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.US06_TC011_CartOperations -->
+      <class name="testCases.US04_TC009_SearchBoxWithAnEmptyInput">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="varify_searchBoxWithEmptyInput_US04_TC009"/>
+        </methods>
+      </class> <!-- testCases.US04_TC009_SearchBoxWithAnEmptyInput -->
+      <class name="testCases.US07_TC012_CheckoutProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="varify_checkoutProcess_US07_TC012"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.US07_TC012_CheckoutProcess -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

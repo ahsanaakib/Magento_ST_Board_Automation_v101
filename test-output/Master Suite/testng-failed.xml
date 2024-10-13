@@ -8,13 +8,15 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.US07_TC012_CheckoutProcess">
+      <class name="testCases.US06_TC011_CartOperations">
         <methods>
           <include name="tearDown"/>
-          <include name="varify_checkoutProcess_US07_TC012"/>
+          <include name="varify_deleteShoppingCart_US06_TC011"/>
+          <include name="varify_productAddToCart_US06_TC011"/>
+          <include name="varify_updateShoppingCart_US06_TC011"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.US07_TC012_CheckoutProcess -->
+      </class> <!-- testCases.US06_TC011_CartOperations -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

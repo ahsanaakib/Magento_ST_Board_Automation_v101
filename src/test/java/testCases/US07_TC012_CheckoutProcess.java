@@ -33,30 +33,30 @@ public class US07_TC012_CheckoutProcess extends BaseClass {
 
 			SearchResultsPage srp = new SearchResultsPage(driver);
 			Thread.sleep(5000);
-			// srp.clickHeroHoodie(); //if clickExpectedProduct not work
-			srp.clickExpectedProduct("Hero Hoodie"); // click 'hero hoodie' as expected product
+			srp.clickHeroHoodie(); //if clickExpectedProduct not work
+			//srp.clickExpectedProduct("Hero Hoodie"); // click 'hero hoodie' as expected product
 			Thread.sleep(5000);
 			ProductDetailsPageHeroHoodie pdp = new ProductDetailsPageHeroHoodie(driver);
 			pdp.selectProductSize(); // Select Product Size
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			pdp.selectColor();
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			pdp.inputQuantity("5"); // Select Product Color
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			pdp.clickAddToCart(); // Click Add to Cart
 
 			Thread.sleep(5000);
 			srp.clickMyCart();
-			Thread.sleep(5000);
+			Thread.sleep(10000);
 			srp.clickViewAndEditCart(); // Navigate to Shopping Cart Page
-			Thread.sleep(5000);
+			Thread.sleep(10000);
 
 			ShoppingCartPage scp = new ShoppingCartPage(driver);
 			scp.clickProceedToCheckout();
-
+			Thread.sleep(5000);
 			CheckoutPage cp = new CheckoutPage(driver);
 			
-			Thread.sleep(5000);
+			
 			cp.clickNext();
 			
 			Thread.sleep(5000);

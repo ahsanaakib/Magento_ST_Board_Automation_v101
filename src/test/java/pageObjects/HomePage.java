@@ -43,7 +43,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//input[@id='search']")
 	WebElement searchBar; // search bar Web Element
 
-	@FindBy(xpath = "//button[@class='action search']")
+	@FindBy(xpath = "//button[@title='Search']")
 	WebElement searchIcon; // search icon in search bar
 
 	
@@ -65,18 +65,18 @@ public class HomePage extends BasePage {
 	}
 
 	public void searchInput(String searchText) {
-		waitForElementToBeVisible(searchBar, 10);
 		searchBar.clear();
 		searchBar.sendKeys(searchText); // input text in search bar
 	}
 
-	public boolean isSearchIconClickable() {
-		try {
-			return searchIcon.isEnabled() && searchIcon.isDisplayed(); // Check if the element is both displayed and
-																		// enabled
-		} catch (NoSuchElementException e) {
-			return false;
-		}
+	public boolean isSearchIconDisabled() {
+	    try {
+	        // Check if the 'disabled' attribute is present
+	        String disabledAttr = searchIcon.getAttribute("disabled");
+	        return disabledAttr != null; // Returns true if the button is disabled
+	    } catch (NoSuchElementException e) {
+	        return true; // If the element is not found, treat it as disabled
+	    }
 	}
 
 	public void clickSearchIcon() {

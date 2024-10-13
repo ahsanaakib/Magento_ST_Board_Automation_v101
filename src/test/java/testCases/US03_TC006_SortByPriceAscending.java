@@ -29,7 +29,8 @@ public class US03_TC006_SortByPriceAscending extends BaseClass {
 
 			wp.clickSortByDropDown(); // Click on the "Sort By" drop-down
 			wp.selectSortByPrice(); // Select sort by price
-
+			Thread.sleep(3000);
+			
 			// Retrieve the list of product prices displayed on the page
 			List<Double> displayedPrices = wp.getProductPrices();
 			

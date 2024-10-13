@@ -23,6 +23,7 @@ public class US01_TC002_ValidUserLogin extends BaseClass {
 			lp.sendEmail(p.getProperty("email")); // sending user email
 			lp.sendPassword(p.getProperty("password")); // sending user password
 			lp.clickSignIn(); // click sign in button
+			Thread.sleep(3000);
 
 			logger.info("Validating User Welcome Message");
 

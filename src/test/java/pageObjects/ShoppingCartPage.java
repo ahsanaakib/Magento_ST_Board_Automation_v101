@@ -30,6 +30,7 @@ public class ShoppingCartPage extends BasePage{
 	
 	public String getCartItemName()
 	{
+		waitForElementToBeVisible(cartItemNameElement, 10);
 		return cartItemNameElement.getText();
 	}
 
@@ -40,6 +41,7 @@ public class ShoppingCartPage extends BasePage{
 	}
 	public void clickUpdateShoppingCart()
 	{
+		waitForElementToBeClickable(btnUpdateShoppingCart, 10);
 		btnUpdateShoppingCart.click();
 	}
 	public String getUpdatedQty()
@@ -62,6 +64,7 @@ public class ShoppingCartPage extends BasePage{
 	}
 	public void clickProceedToCheckout()
 	{
+		waitForElementToBeClickable(btnProceedToCheckout, 10);
 		btnProceedToCheckout.click();
 	}
 	

@@ -23,7 +23,7 @@ public class US01_TC003_InvalidUserLogin extends BaseClass {
 			lp.sendEmail(p.getProperty("email")); // sending user email
 			lp.sendPassword(p.getProperty("wrongpassword")); // sending wrong password
 			lp.clickSignIn(); // click sign in button
-
+			Thread.sleep(3000);
 			String loginErrMsg = lp.getloginErrorMessage(); // get login error message
 
 			logger.info("Validating Loging Error Message");

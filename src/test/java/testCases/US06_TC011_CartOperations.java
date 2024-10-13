@@ -20,21 +20,21 @@ public class US06_TC011_CartOperations extends BaseClass {
 
 			hp.searchInput("watch"); // Search for a product by inputting "watch"
 			hp.clickSearchIcon(); // Click the search icon
-
+			Thread.sleep(5000);
 			SearchResultsPage srp = new SearchResultsPage(driver);
 
 			srp.clickExpectedProduct("Dash Digital Watch"); // Click on the expected product from the search results
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			srp.inputItemQuantity("3"); // Set the quantity of the item
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 
 			srp.clickAddToCart(); // Add the product to the cart
-			Thread.sleep(3000);
+			Thread.sleep(10000);
 			srp.clickMyCart(); // Open the shopping cart view
 
-			Thread.sleep(3000);
+			Thread.sleep(10000);
 			srp.clickViewAndEditCart(); // Click on 'View and Edit Cart' to see details
-			Thread.sleep(2000);
+			Thread.sleep(10000);
 			ShoppingCartPage scp = new ShoppingCartPage(driver);
 			String expProductName = "Dash Digital Watch";
 
@@ -60,7 +60,7 @@ public class US06_TC011_CartOperations extends BaseClass {
 			String updateQty = "5";
 			scp.setUpdateQty(updateQty); // Set the updated quantity for the product in the cart
 			scp.clickUpdateShoppingCart(); // Click to update the shopping cart
-
+			Thread.sleep(3000);
 			String actUpdateQty = scp.getUpdatedQty(); // Retrieve the updated quantity from the cart
 
 			// Assert if the updated quantity matches the expected quantity
@@ -82,9 +82,9 @@ public class US06_TC011_CartOperations extends BaseClass {
 	
 		try {
 			ShoppingCartPage scp = new ShoppingCartPage(driver);
-			Thread.sleep(4000);
+			Thread.sleep(5000);
 			scp.clickRemoveItem(); // Remove the item from the cart
-
+			Thread.sleep(5000);
 			String cartEmptyMessage = scp.getCartEmptyMessage();
 			String expMessage = "You have no items in your shopping cart.";
 			

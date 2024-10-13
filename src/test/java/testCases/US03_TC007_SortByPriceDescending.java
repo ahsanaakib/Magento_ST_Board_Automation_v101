@@ -30,7 +30,7 @@ public class US03_TC007_SortByPriceDescending extends BaseClass {
 			wp.clickSortByDropDown(); // Click Sort By drop down
 			wp.selectSortByPrice(); // Select sort by price
 			wp.clickSetDescDir(); // Set the sort direction to descending
-			
+			Thread.sleep(5000);
 			// Retrieve the list of product prices displayed on the page
 			List<Double> displayedPrices = wp.getProductPrices();
 			
@@ -38,6 +38,7 @@ public class US03_TC007_SortByPriceDescending extends BaseClass {
 			List<Double> sortedPrices = displayedPrices.stream()
 					.sorted((p1, p2) -> Double.compare(p2, p1)) 
 					.collect(Collectors.toList());
+			Thread.sleep(5000);
 			
 			// Validation: Compare the displayed prices with the sorted prices in descending order
 			Assert.assertEquals(displayedPrices, sortedPrices, "Products are not sorted by price in descending order!");

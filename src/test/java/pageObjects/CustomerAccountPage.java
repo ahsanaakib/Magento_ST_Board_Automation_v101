@@ -53,6 +53,7 @@ public class CustomerAccountPage extends BasePage {
 	}
 	public void clickBtnCreateAccount()
 	{
+		waitForElementToBeClickable(btnCreateAnAcc, 10);
 		btnCreateAnAcc.click();
 	}
 	

@@ -19,7 +19,7 @@ public class US04_TC008_SearchBoxWithValidInput extends BaseClass {
 
 			hp.searchInput("watch"); //Enter valid search term "watch" into the search box
 			hp.clickSearchIcon(); //Click on the search icon to perform the search
-
+			Thread.sleep(3000);
 			SearchResultsPage srp = new SearchResultsPage(driver);
 
 			String firstResultText = srp.getNameOFFirstProduct(); // Retrieve the name of the first product from the search results

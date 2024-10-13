@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/3/2</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 12 17:12:57 BDT 2024</td>
+<td>Started on:</td><td>Sat Oct 12 22:42:26 BDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>168 seconds (168771 ms)</td>
+<tr><td>Total time:</td><td>249 seconds (249536 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,175 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()'><b>varify_productAddToCart_US06_TC011</b><br>Test class: testCases.US06_TC011_CartOperations</td>
+<td><div><pre>java.lang.AssertionError: Test failed due to an exception: element not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [499e41d49ec024f1a63e24dafad9d151, clickElement {id=f.BA2663E0EC2C03FDFC82C366E2378E33.d.B3FFC12D41F3514A0A8DE75B5DC578A8.e.180}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14009/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (499e41d49ec024f1a63e24dafad9d151)] -&gt; xpath: //a[@class=&apos;action viewcart&apos;]/span]
+Session ID: 499e41d49ec024f1a63e24dafad9d151
+	at testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011(US06_TC011_CartOperations.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1999639763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1999639763'><pre>java.lang.AssertionError: Test failed due to an exception: element not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [499e41d49ec024f1a63e24dafad9d151, clickElement {id=f.BA2663E0EC2C03FDFC82C366E2378E33.d.B3FFC12D41F3514A0A8DE75B5DC578A8.e.180}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14009/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (499e41d49ec024f1a63e24dafad9d151)] -&gt; xpath: //a[@class=&apos;action viewcart&apos;]/span]
+Session ID: 499e41d49ec024f1a63e24dafad9d151
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011(US06_TC011_CartOperations.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>42</td>
+<td>testCases.US06_TC011_CartOperations@32c726ee</td></tr>
+<tr>
+<td title='testCases.US07_TC012_CheckoutProcess.varify_checkoutProcess_US07_TC012()'><b>varify_checkoutProcess_US07_TC012</b><br>Test class: testCases.US07_TC012_CheckoutProcess</td>
+<td><div><pre>java.lang.AssertionError: Test failed due to an Exceptionelement not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baad2586e8851082fa62f3b06625bd0a, clickElement {id=f.9E001DBFFFD3C720A99E13815A48EB72.d.76288FAE9591A8B961B83667E2BFFD84.e.338}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14028/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (baad2586e8851082fa62f3b06625bd0a)] -&gt; xpath: //a[@class=&apos;action viewcart&apos;]/span]
+Session ID: baad2586e8851082fa62f3b06625bd0a
+	at testCases.US07_TC012_CheckoutProcess.varify_checkoutProcess_US07_TC012(US07_TC012_CheckoutProcess.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace974861985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace974861985'><pre>java.lang.AssertionError: Test failed due to an Exceptionelement not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baad2586e8851082fa62f3b06625bd0a, clickElement {id=f.9E001DBFFFD3C720A99E13815A48EB72.d.76288FAE9591A8B961B83667E2BFFD84.e.338}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14028/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (baad2586e8851082fa62f3b06625bd0a)] -&gt; xpath: //a[@class=&apos;action viewcart&apos;]/span]
+Session ID: baad2586e8851082fa62f3b06625bd0a
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.US07_TC012_CheckoutProcess.varify_checkoutProcess_US07_TC012(US07_TC012_CheckoutProcess.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>69</td>
+<td>testCases.US07_TC012_CheckoutProcess@22f31dec</td></tr>
+<tr>
+<td title='testCases.US04_TC009_SearchBoxWithAnEmptyInput.varify_searchBoxWithEmptyInput_US04_TC009()'><b>varify_searchBoxWithEmptyInput_US04_TC009</b><br>Test class: testCases.US04_TC009_SearchBoxWithAnEmptyInput</td>
+<td><div><pre>java.lang.AssertionError: Search icon should be disabled for empty input. expected [true] but found [false]
+	at testCases.US04_TC009_SearchBoxWithAnEmptyInput.varify_searchBoxWithEmptyInput_US04_TC009(US04_TC009_SearchBoxWithAnEmptyInput.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace876669389", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace876669389'><pre>java.lang.AssertionError: Search icon should be disabled for empty input. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.US04_TC009_SearchBoxWithAnEmptyInput.varify_searchBoxWithEmptyInput_US04_TC009(US04_TC009_SearchBoxWithAnEmptyInput.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>5</td>
+<td>testCases.US04_TC009_SearchBoxWithAnEmptyInput@63fbfaeb</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,75 +245,127 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.US05_TC010_TertiaryMenuNavigation.varify_tertiaryMenuNavigation_US05_TC010()'><b>varify_tertiaryMenuNavigation_US05_TC010</b><br>Test class: testCases.US05_TC010_TertiaryMenuNavigation</td>
-<td></td>
-<td>2</td>
-<td>testCases.US05_TC010_TertiaryMenuNavigation@602e0143</td></tr>
-<tr>
-<td title='testCases.US03_TC007_SortByPriceDescending.varify_SortByPriceAscending_Watches_US03_TC007()'><b>varify_SortByPriceAscending_Watches_US03_TC007</b><br>Test class: testCases.US03_TC007_SortByPriceDescending</td>
-<td></td>
-<td>4</td>
-<td>testCases.US03_TC007_SortByPriceDescending@484094a5</td></tr>
-<tr>
 <td title='testCases.US03_TC006_SortByPriceAscending.varify_SortByPriceAscending_Watches_US03_TC006()'><b>varify_SortByPriceAscending_Watches_US03_TC006</b><br>Test class: testCases.US03_TC006_SortByPriceAscending</td>
 <td></td>
-<td>3</td>
+<td>5</td>
 <td>testCases.US03_TC006_SortByPriceAscending@4f5991f6</td></tr>
 <tr>
-<td title='testCases.US02_TC004_MouseHoverAction.varify_mouseHoverAction_US02_TC004()'><b>varify_mouseHoverAction_US02_TC004</b><br>Test class: testCases.US02_TC004_MouseHoverAction</td>
+<td title='testCases.US04_TC008_SearchBoxWithValidInput.varify_searchBoxWithValidInput_US04_TC008()'><b>varify_searchBoxWithValidInput_US04_TC008</b><br>Test class: testCases.US04_TC008_SearchBoxWithValidInput</td>
 <td></td>
-<td>0</td>
-<td>testCases.US02_TC004_MouseHoverAction@5a755cc1</td></tr>
+<td>4</td>
+<td>testCases.US04_TC008_SearchBoxWithValidInput@38234a38</td></tr>
 <tr>
 <td title='testCases.US02_TC005_HoverAndClickSubMenu.varify_HoverAndClickSubMenu_US02_TC005()'><b>varify_HoverAndClickSubMenu_US02_TC005</b><br>Test class: testCases.US02_TC005_HoverAndClickSubMenu</td>
 <td></td>
 <td>1</td>
 <td>testCases.US02_TC005_HoverAndClickSubMenu@7ae42ce3</td></tr>
 <tr>
-<td title='testCases.US04_TC008_SearchBoxWithValidInput.varify_searchBoxWithValidInput_US04_TC008()'><b>varify_searchBoxWithValidInput_US04_TC008</b><br>Test class: testCases.US04_TC008_SearchBoxWithValidInput</td>
-<td></td>
-<td>2</td>
-<td>testCases.US04_TC008_SearchBoxWithValidInput@38234a38</td></tr>
-<tr>
 <td title='testCases.US01_TC002_ValidUserLogin.varify_validUserLogin_US01_TC002()'><b>varify_validUserLogin_US01_TC002</b><br>Test class: testCases.US01_TC002_ValidUserLogin</td>
 <td></td>
-<td>4</td>
+<td>12</td>
 <td>testCases.US01_TC002_ValidUserLogin@4c1f22f3</td></tr>
 <tr>
-<td title='testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011()'><b>varify_productAddToCart_US06_TC011</b><br>Test class: testCases.US06_TC011_CartOperations</td>
+<td title='testCases.US03_TC007_SortByPriceDescending.varify_SortByPriceAscending_Watches_US03_TC007()'><b>varify_SortByPriceAscending_Watches_US03_TC007</b><br>Test class: testCases.US03_TC007_SortByPriceDescending</td>
 <td></td>
-<td>19</td>
-<td>testCases.US06_TC011_CartOperations@32c726ee</td></tr>
+<td>15</td>
+<td>testCases.US03_TC007_SortByPriceDescending@484094a5</td></tr>
 <tr>
-<td title='testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()'><b>varify_updateShoppingCart_US06_TC011</b><br>Test class: testCases.US06_TC011_CartOperations</td>
-<td></td>
-<td>0</td>
-<td>testCases.US06_TC011_CartOperations@32c726ee</td></tr>
-<tr>
-<td title='testCases.US04_TC009_SearchBoxWithAnEmptyInput.varify_searchBoxWithEmptyInput_US04_TC009()'><b>varify_searchBoxWithEmptyInput_US04_TC009</b><br>Test class: testCases.US04_TC009_SearchBoxWithAnEmptyInput</td>
-<td></td>
-<td>0</td>
-<td>testCases.US04_TC009_SearchBoxWithAnEmptyInput@63fbfaeb</td></tr>
-<tr>
-<td title='testCases.US07_TC012_CheckoutProcess.varify_checkoutProcess_US07_TC012()'><b>varify_checkoutProcess_US07_TC012</b><br>Test class: testCases.US07_TC012_CheckoutProcess</td>
-<td></td>
-<td>64</td>
-<td>testCases.US07_TC012_CheckoutProcess@22f31dec</td></tr>
-<tr>
-<td title='testCases.US01_TC003_InvalidUserLogin.varify_invalidUserLogin_US01_TC003()'><b>varify_invalidUserLogin_US01_TC003</b><br>Test class: testCases.US01_TC003_InvalidUserLogin</td>
-<td></td>
-<td>3</td>
-<td>testCases.US01_TC003_InvalidUserLogin@598bd2ba</td></tr>
-<tr>
-<td title='testCases.US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()'><b>varify_deleteShoppingCart_US06_TC011</b><br>Test class: testCases.US06_TC011_CartOperations</td>
+<td title='testCases.US05_TC010_TertiaryMenuNavigation.varify_tertiaryMenuNavigation_US05_TC010()'><b>varify_tertiaryMenuNavigation_US05_TC010</b><br>Test class: testCases.US05_TC010_TertiaryMenuNavigation</td>
 <td></td>
 <td>5</td>
-<td>testCases.US06_TC011_CartOperations@32c726ee</td></tr>
+<td>testCases.US05_TC010_TertiaryMenuNavigation@602e0143</td></tr>
 <tr>
 <td title='testCases.US01_TC001_AccountRegistration.varify_accountRegistration_US01_TC001()'><b>varify_accountRegistration_US01_TC001</b><br>Test class: testCases.US01_TC001_AccountRegistration</td>
 <td></td>
-<td>5</td>
+<td>6</td>
 <td>testCases.US01_TC001_AccountRegistration@3fed2870</td></tr>
+<tr>
+<td title='testCases.US01_TC003_InvalidUserLogin.varify_invalidUserLogin_US01_TC003()'><b>varify_invalidUserLogin_US01_TC003</b><br>Test class: testCases.US01_TC003_InvalidUserLogin</td>
+<td></td>
+<td>6</td>
+<td>testCases.US01_TC003_InvalidUserLogin@598bd2ba</td></tr>
+<tr>
+<td title='testCases.US02_TC004_MouseHoverAction.varify_mouseHoverAction_US02_TC004()'><b>varify_mouseHoverAction_US02_TC004</b><br>Test class: testCases.US02_TC004_MouseHoverAction</td>
+<td></td>
+<td>0</td>
+<td>testCases.US02_TC004_MouseHoverAction@5a755cc1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011()'><b>varify_deleteShoppingCart_US06_TC011</b><br>Test class: testCases.US06_TC011_CartOperations</td>
+<td><div><pre>java.lang.Throwable: Method testCases.US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee depends on not successfully finished methods 
+[testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1740328397", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1740328397'><pre>java.lang.Throwable: Method testCases.US06_TC011_CartOperations.varify_deleteShoppingCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee depends on not successfully finished methods 
+[testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>testCases.US06_TC011_CartOperations@32c726ee</td></tr>
+<tr>
+<td title='testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011()'><b>varify_updateShoppingCart_US06_TC011</b><br>Test class: testCases.US06_TC011_CartOperations</td>
+<td><div><pre>java.lang.Throwable: Method testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee depends on not successfully finished methods 
+[testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace876945112", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace876945112'><pre>java.lang.Throwable: Method testCases.US06_TC011_CartOperations.varify_updateShoppingCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee depends on not successfully finished methods 
+[testCases.US06_TC011_CartOperations.varify_productAddToCart_US06_TC011() on instance testCases.US06_TC011_CartOperations@32c726ee]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>testCases.US06_TC011_CartOperations@32c726ee</td></tr>
 </table><p>
 </body>
 </html>
