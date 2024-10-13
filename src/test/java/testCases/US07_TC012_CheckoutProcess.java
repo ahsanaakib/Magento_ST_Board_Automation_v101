@@ -46,11 +46,9 @@ public class US07_TC012_CheckoutProcess extends BaseClass {
 			pdp.clickAddToCart(); // Click Add to Cart
 
 			Thread.sleep(5000);
-			srp.clickMyCart();
-			Thread.sleep(10000);
-			srp.clickViewAndEditCart(); // Navigate to Shopping Cart Page
-			Thread.sleep(10000);
-
+			srp.clickShoppingCart(); // Navigate to Shopping Cart Page
+			Thread.sleep(5000);
+			
 			ShoppingCartPage scp = new ShoppingCartPage(driver);
 			scp.clickProceedToCheckout();
 			Thread.sleep(5000);

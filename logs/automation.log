@@ -1,17 +1,37 @@
-07:01:46.033 [main] INFO  testCases.US03_TC006_SortByPriceAscending - ***** Ending varify_SortByPriceAscending_Watches_US03_TC006 *****
-07:01:49.105 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Starting varify_SortByPriceAscending_Watches_US03_TC007 *****
-07:02:04.242 [main] INFO  testCases.US03_TC007_SortByPriceDescending - ***** Finished varify_SortByPriceAscending_Watches_US03_TC007 *****
-07:02:08.770 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Starting varify_searchBoxWithValidInput_US04_TC008 ******
-07:02:13.418 [main] INFO  testCases.US04_TC008_SearchBoxWithValidInput - ***** Ending varify_searchBoxWithValidInput_US04_TC008 ******
-07:02:18.268 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Starting varify_searchBoxWithEmptyInput_US04_TC009 *****
-07:02:23.657 [main] INFO  testCases.US04_TC009_SearchBoxWithAnEmptyInput - ***** Ending varify_searchBoxWithEmptyInput_US04_TC009 *****
-07:02:26.818 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Starting varify_tertiaryMenuNavigation_US05_TC010 *****
-07:02:28.919 [main] INFO  testCases.US05_TC010_TertiaryMenuNavigation - ***** Ending varify_tertiaryMenuNavigation_US05_TC010 *****
-07:02:31.883 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****
-07:03:23.354 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_productAddToCart_US06_TC011 ****
-07:03:23.363 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_updateShoppingCart_US06_TC011 ****
-07:03:26.782 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_updateShoppingCart_US06_TC011 ****
-07:03:26.789 [main] INFO  testCases.US06_TC011_CartOperations - ***** Starting varify_deleteShoppingCart_US06_TC011 *****
-07:03:38.440 [main] INFO  testCases.US06_TC011_CartOperations - ***** Ending varify_deleteShoppingCart_US06_TC011 *****
-07:03:42.134 [main] INFO  testCases.US07_TC012_CheckoutProcess - **** Starting varify_checkoutProcess_US07_TC012 ****
-07:04:59.497 [main] INFO  testCases.US07_TC012_CheckoutProcess - **** Ending varify_checkoutProcess_US07_TC012 ****
+16:07:07.236 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****
+16:07:50.198 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_productAddToCart_US06_TC011 ****
+16:07:50.240 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_updateShoppingCart_US06_TC011 ****
+16:08:04.307 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_updateShoppingCart_US06_TC011 ****
+16:08:04.316 [main] INFO  testCases.US06_TC011_CartOperations - ***** Starting varify_deleteShoppingCart_US06_TC011 *****
+16:08:23.016 [main] INFO  testCases.US06_TC011_CartOperations - ***** Ending varify_deleteShoppingCart_US06_TC011 *****
+16:08:28.531 [main] INFO  testCases.US07_TC012_CheckoutProcess - **** Starting varify_checkoutProcess_US07_TC012 ****
+16:12:01.136 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\Magento_ST_Board_Automation_v101\master.xml"
+16:12:01.572 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\Magento_ST_Board_Automation_v101\master.xml
+
+16:12:06.193 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****
+16:12:48.337 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_productAddToCart_US06_TC011 ****
+16:12:48.362 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_updateShoppingCart_US06_TC011 ****
+16:12:51.594 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_updateShoppingCart_US06_TC011 ****
+16:12:51.603 [main] INFO  testCases.US06_TC011_CartOperations - ***** Starting varify_deleteShoppingCart_US06_TC011 *****
+16:13:33.473 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\Magento_ST_Board_Automation_v101\master.xml"
+16:13:33.889 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\Magento_ST_Board_Automation_v101\master.xml
+
+16:13:38.253 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****
+16:14:19.711 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_productAddToCart_US06_TC011 ****
+16:14:19.741 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_updateShoppingCart_US06_TC011 ****
+16:14:23.457 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_updateShoppingCart_US06_TC011 ****
+16:14:23.469 [main] INFO  testCases.US06_TC011_CartOperations - ***** Starting varify_deleteShoppingCart_US06_TC011 *****
+16:15:58.473 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\Magento_ST_Board_Automation_v101\master.xml"
+16:15:58.866 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\Magento_ST_Board_Automation_v101\master.xml
+
+16:16:03.426 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_productAddToCart_US06_TC011 ****
+16:16:45.532 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_productAddToCart_US06_TC011 ****
+16:16:45.560 [main] INFO  testCases.US06_TC011_CartOperations - **** Starting varify_updateShoppingCart_US06_TC011 ****
+16:16:48.798 [main] INFO  testCases.US06_TC011_CartOperations - **** Ending varify_updateShoppingCart_US06_TC011 ****
+16:16:48.804 [main] INFO  testCases.US06_TC011_CartOperations - ***** Starting varify_deleteShoppingCart_US06_TC011 *****
+16:17:00.910 [main] INFO  testCases.US06_TC011_CartOperations - ***** Ending varify_deleteShoppingCart_US06_TC011 *****
+16:17:08.330 [main] INFO  testCases.US07_TC012_CheckoutProcess - **** Starting varify_checkoutProcess_US07_TC012 ****
+16:18:13.554 [main] INFO  testCases.US07_TC012_CheckoutProcess - **** Ending varify_checkoutProcess_US07_TC012 ****

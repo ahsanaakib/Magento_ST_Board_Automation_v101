@@ -30,11 +30,9 @@ public class US06_TC011_CartOperations extends BaseClass {
 
 			srp.clickAddToCart(); // Add the product to the cart
 			Thread.sleep(10000);
-			srp.clickMyCart(); // Open the shopping cart view
-
+			srp.clickShoppingCart();
 			Thread.sleep(10000);
-			srp.clickViewAndEditCart(); // Click on 'View and Edit Cart' to see details
-			Thread.sleep(10000);
+			
 			ShoppingCartPage scp = new ShoppingCartPage(driver);
 			String expProductName = "Dash Digital Watch";
 

@@ -38,6 +38,15 @@ public class SearchResultsPage extends BasePage{
 	@FindBy(xpath = "//a[@class='product-item-link'][normalize-space()='Hero Hoodie']")
 	WebElement lnkHeroHoodie;
 	
+	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
+	WebElement lnkShoppingCart;
+	
+	public void clickShoppingCart()
+	{
+		waitForElementToBeClickable(lnkShoppingCart, 10);
+		lnkShoppingCart.click();
+	}
+	
 	public void clickHeroHoodie()
 	{
 		lnkHeroHoodie.click();
